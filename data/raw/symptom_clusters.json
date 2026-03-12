@@ -1,0 +1,3109 @@
+[
+  {
+    "department": "Emergency Medicine",
+    "urgency": "Emergency",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "acute chest pain",
+          "dyspnea",
+          "diaphoresis"
+        ],
+        "likely_condition": "acute ST-elevation myocardial infarction (STEMI) with ongoing ischemia."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "sudden unilateral weakness",
+          "facial droop",
+          "slurred speech"
+        ],
+        "likely_condition": "acute ischemic stroke due to large vessel occlusion in the left hemisphere."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "sudden severe abdominal pain",
+          "abdominal rigidity",
+          "vomiting"
+        ],
+        "likely_condition": "perforated peptic ulcer with generalized peritonitis and risk of sepsis."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "hypotension",
+          "high fever",
+          "tachycardia"
+        ],
+        "likely_condition": "septic shock from a severe bacterial infection, such as pyelonephritis or pneumonia."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "respiratory depression",
+          "altered mental status",
+          "pinpoint pupils"
+        ],
+        "likely_condition": "acute opioid overdose with impending respiratory failure."
+      }
+    ]
+  },
+  {
+    "department": "General Internal Medicine / Primary Care",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "nasal congestion",
+          "sneezing",
+          "itchy eyes"
+        ],
+        "likely_condition": "Seasonal allergic rhinitis due to pollen exposure, with no signs of acute infection or complications."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "excessive worry",
+          "restlessness",
+          "sleep disturbance"
+        ],
+        "likely_condition": "Generalized anxiety disorder, mild to moderate severity, without suicidal ideation or panic attacks."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "epigastric pain",
+          "postprandial fullness",
+          "early satiety"
+        ],
+        "likely_condition": "Functional dyspepsia, postprandial distress syndrome, with no alarm symptoms like weight loss or gastrointestinal bleeding."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "bilateral headache",
+          "pressing quality",
+          "mild photophobia"
+        ],
+        "likely_condition": "Chronic tension-type headache, occurring less than 15 days per month, without neurological deficits."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "pruritus",
+          "erythematous rash",
+          "dry skin"
+        ],
+        "likely_condition": "Atopic dermatitis in stable phase, with no evidence of secondary bacterial infection or severe flare."
+      }
+    ]
+  },
+  {
+    "department": "General Internal Medicine / Primary Care",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "persistent cough",
+          "low-grade fever",
+          "fatigue"
+        ],
+        "likely_condition": "Acute bronchitis with possible bacterial superinfection."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "watery diarrhea",
+          "abdominal cramping",
+          "nausea"
+        ],
+        "likely_condition": "Viral gastroenteritis with dehydration risk."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "bilateral ankle edema",
+          "dyspnea on exertion",
+          "paroxysmal nocturnal dyspnea"
+        ],
+        "likely_condition": "Acute decompensated heart failure requiring diuretic adjustment."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "polyuria",
+          "polydipsia",
+          "unintentional weight loss"
+        ],
+        "likely_condition": "New-onset type 2 diabetes mellitus with hyperglycemia."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "symmetric joint swelling",
+          "morning stiffness lasting >1 hour",
+          "low-grade fever"
+        ],
+        "likely_condition": "Flare of rheumatoid arthritis or new inflammatory polyarthritis."
+      }
+    ]
+  },
+  {
+    "department": "General Internal Medicine / Primary Care",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Central crushing chest pain",
+          "Radiation to left arm and jaw",
+          "Profuse diaphoresis",
+          "Dyspnea at rest"
+        ],
+        "likely_condition": "Acute ST-elevation myocardial infarction (STEMI) with ongoing ischemia and high risk for cardiogenic shock."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Sudden severe dyspnea at rest",
+          "Pleuritic chest pain",
+          "Tachycardia >130 bpm",
+          "Oxygen saturation <88% on room air"
+        ],
+        "likely_condition": "Massive pulmonary embolism with hemodynamic instability and right ventricular failure."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Acute onset right facial droop and arm weakness",
+          "Slurred speech and aphasia",
+          "Left-sided hemiparesis",
+          "Right visual field loss"
+        ],
+        "likely_condition": "Left hemispheric acute ischemic stroke involving the middle cerebral artery territory with potential for malignant edema."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Polyuria and polydipsia over 24-48 hours",
+          "Nausea with bilious vomiting",
+          "Severe abdominal pain",
+          "Fruity breath odor and Kussmaul respirations"
+        ],
+        "likely_condition": "Diabetic ketoacidosis with severe metabolic acidosis (pH <7.1) and volume depletion in a type 1 diabetic."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "High fever >39°C with rigors",
+          "Hypotension with SBP <90 mmHg",
+          "Tachycardia >120 bpm",
+          "Acute confusion or lethargy"
+        ],
+        "likely_condition": "Septic shock from a suspected source such as pneumonia or pyelonephritis with multi-organ dysfunction risk."
+      }
+    ]
+  },
+  {
+    "department": "Cardiology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Predictable chest pressure with moderate exertion",
+          "Symptom relief with rest within 5 minutes",
+          "No symptoms at rest or with minimal activity"
+        ],
+        "likely_condition": "Stable atherosclerotic coronary artery disease presenting as typical stable angina."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Intermittent sensation of irregular or 'skipped' heartbeats",
+          "Mild associated anxiety or awareness of heartbeat",
+          "No associated syncope, presyncope, or chest pain"
+        ],
+        "likely_condition": "Benign atrial or ventricular premature complexes in a patient without structural heart disease."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Gradual onset of bilateral ankle edema over weeks",
+          "Mild shortness of breath only with significant exertion",
+          "No orthopnea, paroxysmal nocturnal dyspnea, or rapid weight gain"
+        ],
+        "likely_condition": "Chronic heart failure with preserved ejection fraction (HFpEF) in a stable, compensated state."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Brief lightheadedness with prolonged standing or exertion",
+          "No palpitations or chest pain before the event",
+          "No witnessed convulsive activity or tongue biting"
+        ],
+        "likely_condition": "Neurocardiogenic (vasovagal) syncope or orthostatic intolerance without evidence of arrhythmia."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Persistent fatigue and reduced exercise tolerance for months",
+          "Mild dizziness upon standing from a seated position",
+          "No chest pain, palpitations, or orthopnea"
+        ],
+        "likely_condition": "Symptomatic bradycardia secondary to beta-blocker therapy in a patient with no prior conduction disease."
+      }
+    ]
+  },
+  {
+    "department": "Cardiology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "exertional chest pressure",
+          "dyspnea on exertion",
+          "fatigue"
+        ],
+        "likely_condition": "Chronic stable angina secondary to coronary artery disease."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "palpitations",
+          "mild dizziness",
+          "fatigue"
+        ],
+        "likely_condition": "Atrial fibrillation with rapid ventricular response, hemodynamically stable."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "progressive dyspnea on exertion",
+          "orthopnea",
+          "bilateral ankle edema"
+        ],
+        "likely_condition": "Mild decompensation of chronic systolic heart failure."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "brief loss of consciousness",
+          "presyncope",
+          "lightheadedness"
+        ],
+        "likely_condition": "Syncope likely due to transient arrhythmia, pending further evaluation."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "exertional dyspnea",
+          "exertional chest discomfort",
+          "exertional syncope"
+        ],
+        "likely_condition": "Severe aortic stenosis with onset of classic symptoms."
+      }
+    ]
+  },
+  {
+    "department": "Cardiology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Chest pressure radiating to left arm",
+          "Profuse diaphoresis",
+          "Nausea",
+          "Dyspnea"
+        ],
+        "likely_condition": "ST-elevation myocardial infarction (STEMI) due to acute plaque rupture in the left anterior descending artery."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Sudden severe tearing chest pain radiating to the back",
+          "Blood pressure discrepancy between arms",
+          "New diastolic murmur of aortic regurgitation",
+          "Pulse deficit"
+        ],
+        "likely_condition": "Type A aortic dissection involving the ascending aorta with potential aortic valve involvement."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Hypotension (systolic BP <90 mmHg)",
+          "Jugular venous distension",
+          "Muffled heart sounds on auscultation",
+          "Tachycardia"
+        ],
+        "likely_condition": "Cardiac tamponade from pericardial effusion, likely secondary to acute myocardial infarction or iatrogenic cause."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Acute onset dyspnea at rest",
+          "Syncope or presyncope",
+          "Pleuritic chest pain",
+          "Tachycardia >100 bpm"
+        ],
+        "likely_condition": "Massive pulmonary embolism with right ventricular failure and hemodynamic instability."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Palpitations with rapid heart rate",
+          "Dizziness or lightheadedness",
+          "Syncope",
+          "Chest discomfort"
+        ],
+        "likely_condition": "Sustained monomorphic ventricular tachycardia in a patient with underlying ischemic cardiomyopathy."
+      }
+    ]
+  },
+  {
+    "department": "Orthopedics",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Gradual onset knee pain",
+          "Morning stiffness lasting <30 minutes",
+          "Pain exacerbation with walking or stairs",
+          "Mild intermittent swelling"
+        ],
+        "likely_condition": "Mild to moderate primary knee osteoarthritis with stable joint alignment."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Sharp heel pain with initial steps after waking",
+          "Pain worsening after prolonged weight-bearing",
+          "Localized tenderness at medial calcaneal tuberosity",
+          "Symptom improvement with gentle walking"
+        ],
+        "likely_condition": "Chronic proximal plantar fasciitis without systemic inflammatory signs."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Dull posterior shoulder ache",
+          "Discomfort during overhead reaching",
+          "Nocturnal pain when lying on affected side",
+          "Mild weakness in resisted external rotation"
+        ],
+        "likely_condition": "Chronic rotator cuff tendinosis with intact tendon integrity on prior imaging."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Tenderness over lateral epicondyle",
+          "Pain with wrist extension or gripping",
+          "Radiating discomfort to forearm",
+          "No significant loss of range of motion"
+        ],
+        "likely_condition": "Lateral epicondylitis (tennis elbow) with no evidence of radial nerve compression."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Intermittent numbness in thumb, index, and middle fingers",
+          "Paresthesia predominantly at night",
+          "Occasional hand clumsiness",
+          "Relief with wrist shaking or position change"
+        ],
+        "likely_condition": "Early-stage carpal tunnel syndrome with normal thenar muscle bulk and no motor deficits."
+      }
+    ]
+  },
+  {
+    "department": "Orthopedics",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Night pain exacerbated by lying on affected side",
+          "Weakness in active shoulder abduction and forward flexion",
+          "Painful arc between 60 and 120 degrees of elevation"
+        ],
+        "likely_condition": "Rotator cuff tendinopathy or partial-thickness tear, likely involving the supraspinatus."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Mechanical locking or catching of the knee",
+          "Joint line tenderness on palpation",
+          "Intermittent effusion with activity"
+        ],
+        "likely_condition": "Traumatic meniscal tear, commonly medial or lateral meniscus."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Groin pain worsened by hip internal rotation and adduction",
+          "Antalgic gait with reduced stance time on affected side",
+          "Pain at night disrupting sleep"
+        ],
+        "likely_condition": "Hip osteoarthritis with possible labral involvement or chondral damage."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Subjective lateral ankle instability with giving way episodes",
+          "Recurrent inversion sprains without complete recovery",
+          "Pain and swelling along the lateral ligament complex"
+        ],
+        "likely_condition": "Chronic lateral ankle ligament insufficiency, often following an acute sprain."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Medial elbow pain with gripping or wrist flexion",
+          "Tenderness to palpation over the medial epicondyle",
+          "Radiating pain into the forearm with resisted wrist movements"
+        ],
+        "likely_condition": "Medial epicondylitis (golfer's elbow) due to repetitive strain."
+      }
+    ]
+  },
+  {
+    "department": "Orthopedics",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Absent distal pulses",
+          "Pallor of foot",
+          "Paresthesia in lower leg",
+          "Inability to bear weight"
+        ],
+        "likely_condition": "Popliteal artery injury associated with knee dislocation or tibial fracture causing acute limb ischemia."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Pain out of proportion to injury",
+          "Pain on passive stretch",
+          "Tense calf swelling",
+          "Paresthesia"
+        ],
+        "likely_condition": "Acute compartment syndrome of the anterior leg compartment, often post-fracture or crush injury."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Inability to bear weight",
+          "Shortened externally rotated leg",
+          "Severe groin pain"
+        ],
+        "likely_condition": "Femoral neck fracture in an elderly patient with high risk of avascular necrosis and perioperative complications."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Fever",
+          "Acute monoarticular erythema",
+          "Joint swelling",
+          "Severe joint pain"
+        ],
+        "likely_condition": "Septic arthritis of a large joint, such as the knee or hip, requiring urgent drainage."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Saddle anesthesia",
+          "Urinary retention",
+          "Bilateral leg weakness",
+          "Severe low back pain"
+        ],
+        "likely_condition": "Cauda equina syndrome from massive lumbar disc herniation or spinal stenosis."
+      }
+    ]
+  },
+  {
+    "department": "Neurology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Recurrent throbbing headaches",
+          "photophobia",
+          "nausea",
+          "visual aura"
+        ],
+        "likely_condition": "Chronic migraine disorder with typical aura features, no status migrainosus or concerning neurological signs."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Progressive short-term memory loss",
+          "difficulty with word-finding",
+          "mild disorientation in familiar settings",
+          "subtle personality changes"
+        ],
+        "likely_condition": "Early-stage Alzheimer's disease presenting with amnestic mild cognitive impairment."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Symmetrical numbness and tingling in feet",
+          "reduced sensation to temperature and pain",
+          "impaired vibration sense",
+          "mild gait instability"
+        ],
+        "likely_condition": "Diabetic sensorimotor polyneuropathy in a patient with longstanding poorly controlled diabetes."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Action tremor in hands",
+          "voice tremor",
+          "family history of similar tremor",
+          "tremor exacerbation with stress or fatigue"
+        ],
+        "likely_condition": "Essential tremor, a benign familial movement disorder without resting tremor or rigidity."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Brief episodes of vertigo triggered by head movement",
+          "nausea",
+          "feeling of imbalance",
+          "worsening when rolling over in bed"
+        ],
+        "likely_condition": "Benign paroxysmal positional vertigo due to displaced otoconia in the semicircular canals."
+      }
+    ]
+  },
+  {
+    "department": "Neurology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "transient unilateral weakness",
+          "slurred speech",
+          "facial droop"
+        ],
+        "likely_condition": "Transient ischemic attack, indicating high short-term stroke risk."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "focal motor seizure",
+          "post-ictal confusion",
+          "bitemporal headache"
+        ],
+        "likely_condition": "Focal epilepsy, potentially secondary to a structural brain abnormality."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "progressive symmetric distal weakness",
+          "paresthesias",
+          "hyporeflexia"
+        ],
+        "likely_condition": "Chronic inflammatory demyelinating polyneuropathy, an autoimmune demyelinating disorder."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "fluctuating ptosis",
+          "diplopia",
+          "fatigable bulbar weakness"
+        ],
+        "likely_condition": "Myasthenia gravis, an autoimmune neuromuscular junction disorder."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "recent short-term memory impairment",
+          "spatial disorientation",
+          "anomia"
+        ],
+        "likely_condition": "Early Alzheimer's disease, a progressive neurodegenerative dementia."
+      }
+    ]
+  },
+  {
+    "department": "Neurology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Sudden onset of right-sided facial droop and arm weakness",
+          "Slurred speech (dysarthria)",
+          "Right-sided sensory loss"
+        ],
+        "likely_condition": "Acute left middle cerebral artery territory ischemic stroke."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "High fever (102°F)",
+          "Severe headache with photophobia",
+          "Neck stiffness (nuchal rigidity)",
+          "Acute change in mental status (confusion, lethargy)"
+        ],
+        "likely_condition": "Acute bacterial meningitis with possible meningoencephalitis."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Sudden-onset, severe 'thunderclap' headache",
+          "Profuse vomiting",
+          "Decreased level of consciousness (stupor)",
+          "Bilateral papilledema on exam (if assessed)"
+        ],
+        "likely_condition": "Acute subarachnoid hemorrhage with potential for rapid neurologic deterioration and herniation."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Rapidly progressive, symmetrical ascending weakness (legs to arms)",
+          "Loss of deep tendon reflexes (areflexia) in affected limbs",
+          "Recent history of respiratory or gastrointestinal illness"
+        ],
+        "likely_condition": "Acute inflammatory demyelinating polyradiculoneuropathy (Guillain-Barré syndrome) with risk of respiratory failure."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "First-time generalized tonic-clonic seizure",
+          "Prolonged post-ictal confusion (>30 minutes)",
+          "New focal neurologic deficit (e.g., aphasia, hemiparesis) noted after seizure"
+        ],
+        "likely_condition": "New-onset seizure likely secondary to an acute intracranial lesion such as a brain tumor, stroke, or encephalitis."
+      }
+    ]
+  },
+  {
+    "department": "Gastroenterology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Recurrent abdominal pain that improves with defecation",
+          "Diarrhea-predominant bowel movements",
+          "Bloating and distension"
+        ],
+        "likely_condition": "Irritable bowel syndrome with diarrhea (IBS-D), a functional disorder characterized by chronic abdominal pain and altered bowel habits without structural pathology."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Daily heartburn",
+          "Regurgitation of sour or bitter taste",
+          "Worsening of symptoms after meals or when lying down"
+        ],
+        "likely_condition": "Gastroesophageal reflux disease (GERD), caused by chronic reflux of stomach acid into the esophagus."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Bowel movements less than three times per week",
+          "Hard, lumpy stools",
+          "Excessive straining during defecation"
+        ],
+        "likely_condition": "Chronic functional constipation, a motility disorder of the colon without identifiable organic cause."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Epigastric pain or burning",
+          "Early satiety",
+          "Postprandial fullness"
+        ],
+        "likely_condition": "Functional dyspepsia, defined by persistent upper abdominal symptoms in the absence of endoscopic abnormalities."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Anal itching and irritation",
+          "Mild pain during or after bowel movements",
+          "Sensation of rectal fullness or incomplete evacuation"
+        ],
+        "likely_condition": "Mild hemorrhoidal disease, involving benign venous enlargement in the anal canal without bleeding or thrombosis."
+      }
+    ]
+  },
+  {
+    "department": "Gastroenterology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "bloody diarrhea",
+          "abdominal cramping",
+          "fever",
+          "weight loss"
+        ],
+        "likely_condition": "Ulcerative colitis with moderate exacerbation."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "melena",
+          "epigastric pain",
+          "nausea"
+        ],
+        "likely_condition": "Peptic ulcer disease with chronic upper gastrointestinal bleeding."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "watery diarrhea",
+          "weight loss",
+          "bloating"
+        ],
+        "likely_condition": "Celiac disease presenting with malabsorptive symptoms."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "jaundice",
+          "ascites",
+          "lower extremity edema"
+        ],
+        "likely_condition": "Cirrhosis with ascites indicating decompensated phase."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "epigastric pain radiating to back",
+          "nausea",
+          "vomiting"
+        ],
+        "likely_condition": "Acute mild pancreatitis without organ failure."
+      }
+    ]
+  },
+  {
+    "department": "Gastroenterology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "hematemesis",
+          "melena",
+          "orthostatic hypotension",
+          "tachycardia"
+        ],
+        "likely_condition": "Peptic ulcer disease with active arterial bleeding requiring urgent endoscopic intervention."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "hematochezia",
+          "hemodynamic instability",
+          "syncope",
+          "abdominal cramping"
+        ],
+        "likely_condition": "Diverticular hemorrhage or colonic angiodysplasia with brisk bleeding and significant volume loss."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "severe epigastric pain radiating to the back",
+          "persistent vomiting",
+          "fever",
+          "tachycardia"
+        ],
+        "likely_condition": "Acute necrotizing pancreatitis with systemic inflammatory response syndrome and risk of organ failure."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "crampy abdominal pain",
+          "bilious vomiting",
+          "abdominal distension",
+          "obstipation"
+        ],
+        "likely_condition": "Adhesive small bowel obstruction with high suspicion for strangulation or ischemia."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "fever and chills",
+          "jaundice",
+          "right upper quadrant pain",
+          "hypotension"
+        ],
+        "likely_condition": "Acute ascending cholangitis due to biliary obstruction, often from a stone or malignant stricture, with septic physiology."
+      }
+    ]
+  },
+  {
+    "department": "Pulmonology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "dyspnea on exertion",
+          "occasional wheezing",
+          "nocturnal cough"
+        ],
+        "likely_condition": "Mild persistent asthma, currently stable with intermittent symptoms despite maintenance therapy."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "chronic productive cough",
+          "dyspnea on moderate exertion",
+          "minimal sputum production"
+        ],
+        "likely_condition": "Stable chronic obstructive pulmonary disease, GOLD group B, with chronic bronchitis predominance."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "persistent non-productive cough",
+          "throat clearing",
+          "cough exacerbated by lying down"
+        ],
+        "likely_condition": "Upper airway cough syndrome likely secondary to postnasal drip from allergic rhinitis."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "gradual onset dyspnea on exertion",
+          "dry cough",
+          "mild fatigue"
+        ],
+        "likely_condition": "Stable interstitial lung disease, consistent with early idiopathic pulmonary fibrosis without acute exacerbation."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "loud snoring",
+          "daytime sleepiness",
+          "unrefreshing sleep"
+        ],
+        "likely_condition": "Obstructive sleep apnea of moderate severity, without significant nocturnal desaturation or cardiovascular comorbidities."
+      }
+    ]
+  },
+  {
+    "department": "Pulmonology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "dyspnea",
+          "fever",
+          "pleuritic chest pain",
+          "cough"
+        ],
+        "likely_condition": "Community-acquired pneumonia, likely bacterial etiology, without severe hypoxia or sepsis."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "increased dyspnea",
+          "increased sputum purulence",
+          "increased sputum volume"
+        ],
+        "likely_condition": "Acute exacerbation of chronic obstructive pulmonary disease, possibly triggered by infection, stable for outpatient management."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "wheezing",
+          "dyspnea",
+          "cough",
+          "nocturnal awakenings"
+        ],
+        "likely_condition": "Moderate persistent asthma with suboptimal control, not meeting criteria for acute severe attack."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "dyspnea",
+          "chest discomfort",
+          "non-productive cough"
+        ],
+        "likely_condition": "Pleural effusion, likely parapneumonic or malignant, with moderate symptoms and stable vital signs."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "progressive dyspnea on exertion",
+          "dry cough",
+          "fatigue"
+        ],
+        "likely_condition": "Progressive interstitial lung disease, suggestive of idiopathic pulmonary fibrosis or similar fibrotic process."
+      }
+    ]
+  },
+  {
+    "department": "Pulmonology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "sudden onset dyspnea",
+          "pleuritic chest pain",
+          "tachycardia",
+          "syncope"
+        ],
+        "likely_condition": "Acute pulmonary embolism with right ventricular strain or shock."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "acute dyspnea",
+          "hypotension",
+          "pleuritic chest pain",
+          "tracheal deviation"
+        ],
+        "likely_condition": "Tension pneumothorax with mediastinal shift and hemodynamic compromise."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "silent chest on auscultation",
+          "severe dyspnea at rest",
+          "use of accessory muscles",
+          "wheezing"
+        ],
+        "likely_condition": "Status asthmaticus with impending respiratory arrest."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "acute respiratory distress",
+          "severe hypoxemia",
+          "tachypnea",
+          "bilateral crackles"
+        ],
+        "likely_condition": "Acute Respiratory Distress Syndrome (ARDS) from pulmonary or extrapulmonary cause."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "worsening dyspnea",
+          "altered mental status",
+          "hypoxemia",
+          "hypercapnia signs"
+        ],
+        "likely_condition": "COPD exacerbation with hypercapnic respiratory failure and encephalopathy."
+      }
+    ]
+  },
+  {
+    "department": "Dermatology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Pruritic, erythematous patches on flexural areas",
+          "Dry, flaky skin",
+          "Occasional serous oozing"
+        ],
+        "likely_condition": "Atopic dermatitis flare in a patient with chronic eczema."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Well-demarcated erythematous plaques with silvery scales",
+          "Mild pruritus",
+          "No history of joint pain or swelling"
+        ],
+        "likely_condition": "Chronic plaque psoriasis without evidence of psoriatic arthritis."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Facial comedones and inflammatory papules",
+          "Chest and back acne lesions",
+          "Absence of painful nodules or cysts"
+        ],
+        "likely_condition": "Mild to moderate acne vulgaris with no signs of severe nodulocystic disease."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Greasy, yellowish scales on scalp",
+          "Mild itching in eyebrows and nasolabial folds",
+          "No associated hair loss or significant inflammation"
+        ],
+        "likely_condition": "Seborrheic dermatitis affecting typical oily skin areas."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Intense itching and burning between toes",
+          "Peeling and macerated skin on feet",
+          "Mild erythema without purulence"
+        ],
+        "likely_condition": "Tinea pedis, a superficial dermatophyte infection of the feet."
+      }
+    ]
+  },
+  {
+    "department": "Dermatology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Acutely expanding area of erythema",
+          "Localized warmth and edema",
+          "Tenderness to palpation",
+          "Fever"
+        ],
+        "likely_condition": "Non-necrotizing bacterial cellulitis, likely streptococcal or staphylococcal origin."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Acute flare of widespread eczematous dermatitis",
+          "Exudative crusting and erosions",
+          "Fever and malaise",
+          "Intense pruritus"
+        ],
+        "likely_condition": "Severe atopic dermatitis with probable secondary bacterial superinfection (e.g., Staph aureus)."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "New or changing pigmented lesion",
+          "Asymmetric shape and irregular borders",
+          "Variegated color pattern",
+          "Recent bleeding or ulceration"
+        ],
+        "likely_condition": "Clinically suspicious nevus or melanoma requiring urgent excisional biopsy."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Acute onset of widespread sterile pustules",
+          "Associated fever and malaise",
+          "Peripheral eosinophilia",
+          "History of recent new medication initiation (e.g., antibiotics, antifungals)"
+        ],
+        "likely_condition": "Acute Generalized Exanthematous Pustulosis (AGEP), a severe cutaneous adverse drug reaction."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Rapidly enlarging, painful cutaneous ulcer",
+          "Violaceous or undermined border",
+          "Purulent base with surrounding erythema",
+          "History of underlying inflammatory bowel disease or arthritis"
+        ],
+        "likely_condition": "Pyoderma gangrenosum, requiring systemic immunosuppressive therapy and evaluation for associated systemic disease."
+      }
+    ]
+  },
+  {
+    "department": "Dermatology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Extensive skin blistering and detachment",
+          "Mucosal erosions (oral, ocular)",
+          "Fever",
+          "Malaise"
+        ],
+        "likely_condition": "Stevens-Johnson Syndrome or Toxic Epidermal Necrolysis, severe drug-induced cutaneous adverse reactions with high mortality."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Severe pain disproportionate to physical findings",
+          "Erythema with ill-defined borders and edema",
+          "Fever",
+          "Bullae or skin necrosis"
+        ],
+        "likely_condition": "Necrotizing fasciitis, a rapidly progressive soft tissue infection requiring emergent surgical debridement."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Dyspnea or stridor",
+          "Hypotension",
+          "Angioedema of lips or tongue",
+          "Generalized urticaria"
+        ],
+        "likely_condition": "Anaphylaxis, a systemic hypersensitivity reaction that can cause airway obstruction and circulatory collapse."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Painful oral erosions",
+          "Flaccid blisters on skin",
+          "Positive Nikolsky sign",
+          "Skin peeling"
+        ],
+        "likely_condition": "Pemphigus vulgaris, an autoimmune blistering disorder with risk of sepsis and fluid loss if untreated."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "High fever (>38.5°C)",
+          "Tachycardia",
+          "Extensive erythema with warmth and tenderness",
+          "Bullae formation"
+        ],
+        "likely_condition": "Severe bacterial cellulitis with systemic toxicity, indicating possible bacteremia or deep space infection."
+      }
+    ]
+  },
+  {
+    "department": "Psychiatry / Behavioral Health",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Persistent depressed mood",
+          "Anhedonia",
+          "Fatigue",
+          "Difficulty concentrating"
+        ],
+        "likely_condition": "Major Depressive Disorder, mild severity, without suicidal ideation."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Excessive worry about multiple life domains",
+          "Restlessness",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "likely_condition": "Generalized Anxiety Disorder."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Emotional distress linked to recent identifiable stressor",
+          "Anxiety",
+          "Low mood",
+          "Social withdrawal"
+        ],
+        "likely_condition": "Adjustment Disorder with mixed anxiety and depressed mood."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Intense fear of negative evaluation in social settings",
+          "Avoidance of social interactions",
+          "Physical symptoms like blushing or trembling in social contexts",
+          "Anticipatory anxiety about upcoming social events"
+        ],
+        "likely_condition": "Social Anxiety Disorder."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Recurrent intrusive, unwanted thoughts",
+          "Compulsive repetitive behaviors or mental acts",
+          "Significant time spent on obsessions or compulsions",
+          "Distress when unable to perform compulsions"
+        ],
+        "likely_condition": "Obsessive-Compulsive Disorder, moderate severity."
+      }
+    ]
+  },
+  {
+    "department": "Psychiatry / Behavioral Health",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Persistent sadness",
+          "Loss of interest or pleasure",
+          "Fatigue or loss of energy",
+          "Difficulty concentrating"
+        ],
+        "likely_condition": "Major Depressive Disorder, moderate severity without suicidal ideation"
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Excessive worry",
+          "Restlessness or feeling on edge",
+          "Muscle tension",
+          "Sleep disturbance"
+        ],
+        "likely_condition": "Generalized Anxiety Disorder"
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Anxiety",
+          "Low mood or depressed affect",
+          "Irritability",
+          "Social withdrawal"
+        ],
+        "likely_condition": "Adjustment Disorder with mixed anxiety and depressed mood following a identifiable stressor"
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Recurrent unexpected panic attacks",
+          "Persistent concern about having additional attacks",
+          "Avoidance of situations associated with attacks"
+        ],
+        "likely_condition": "Panic Disorder"
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Intrusive, unwanted thoughts",
+          "Repetitive behaviors or mental acts",
+          "Significant distress or impairment",
+          "Time-consuming rituals"
+        ],
+        "likely_condition": "Obsessive-Compulsive Disorder"
+      }
+    ]
+  },
+  {
+    "department": "Psychiatry / Behavioral Health",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Active suicidal plan with specific means and intent",
+          "Hopelessness about the future",
+          "Recent severe loss or humiliation"
+        ],
+        "likely_condition": "Major depressive disorder, severe with suicidal risk"
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Auditory command hallucinations to harm others",
+          "Disorganized, incoherent speech",
+          "Paranoid delusions of persecution"
+        ],
+        "likely_condition": "Schizophrenia or schizoaffective disorder, acute psychotic exacerbation"
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Decreased need for sleep for >3 nights with no fatigue",
+          "Grandiose delusions of special powers or identity",
+          "Impulsive spending or reckless behavior causing financial/legal jeopardy"
+        ],
+        "likely_condition": "Bipolar I disorder, current episode manic with psychotic features"
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Severe agitation and psychomotor retardation alternating",
+          "Panic attacks multiple times daily",
+          "Intense suicidal ideation with mixed emotional state (sadness/irritability)"
+        ],
+        "likely_condition": "Bipolar I disorder, current episode mixed with high suicide risk"
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Mutism and stupor",
+          "Waxy flexibility and negativism",
+          "Unexplained fever or autonomic instability"
+        ],
+        "likely_condition": "Catatonia secondary to mood or psychotic disorder, medical emergency"
+      }
+    ]
+  },
+  {
+    "department": "Obstetrics & Gynecology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Nausea and occasional vomiting",
+          "Fatigue",
+          "Food aversions"
+        ],
+        "likely_condition": "Nausea and vomiting of pregnancy, likely in the first trimester without signs of dehydration or electrolyte imbalance."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Regular heavy menstrual bleeding",
+          "Passage of small clots",
+          "Mild lower abdominal cramping"
+        ],
+        "likely_condition": "Menorrhagia, most commonly secondary to uterine leiomyomas (fibroids) or adenomyosis in a hemodynamically stable patient."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Vaginal dryness",
+          "Dyspareunia",
+          "Mild urinary frequency"
+        ],
+        "likely_condition": "Genitourinary syndrome of menopause (GSM) related to hypoestrogenism in a postmenopausal patient."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Incidental finding of a pelvic mass on recent imaging",
+          "Mild, intermittent bloating sensation",
+          "No acute pain or pressure symptoms"
+        ],
+        "likely_condition": "An asymptomatic adnexal or uterine mass, most likely a benign simple cyst or small fibroid."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Small volume urine leakage with coughing or sneezing",
+          "Occasional need for protective pad",
+          "No dysuria or hematuria"
+        ],
+        "likely_condition": "Stress urinary incontinence, typically related to pelvic floor muscle weakness or urethral hypermobility."
+      }
+    ]
+  },
+  {
+    "department": "Obstetrics & Gynecology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Vaginal spotting",
+          "Mild lower abdominal cramping",
+          "No passage of tissue"
+        ],
+        "likely_condition": "Threatened abortion in a hemodynamically stable patient."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Bilateral lower pelvic pain",
+          "Purulent cervical discharge",
+          "Low-grade fever"
+        ],
+        "likely_condition": "Pelvic inflammatory disease without signs of tubo-ovarian abscess."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Sudden onset unilateral lower abdominal pain",
+          "Nausea without vomiting",
+          "No rebound tenderness"
+        ],
+        "likely_condition": "Suspected ovarian torsion requiring prompt imaging to rule out ischemia."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Dysuria",
+          "Increased urinary frequency",
+          "Absence of fever or flank pain"
+        ],
+        "likely_condition": "Asymptomatic bacteriuria or uncomplicated UTI in pregnancy."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Intermittent vaginal bleeding",
+          "Postmenopausal status",
+          "No associated pelvic pain or heavy flow"
+        ],
+        "likely_condition": "Postmenopausal bleeding indicating possible endometrial atrophy or hyperplasia."
+      }
+    ]
+  },
+  {
+    "department": "Obstetrics & Gynecology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Sudden severe lower abdominal pain",
+          "Dizziness or lightheadedness",
+          "Vaginal bleeding",
+          "Nausea and vomiting"
+        ],
+        "likely_condition": "Ruptured ectopic pregnancy with intra-abdominal hemorrhage and hypovolemic shock."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Vaginal bleeding",
+          "Frequent uterine contractions",
+          "Abdominal or back pain",
+          "Decreased fetal movement"
+        ],
+        "likely_condition": "Placental abruption causing maternal hemorrhage and fetal hypoxia."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Severe headache",
+          "Visual disturbances",
+          "Epigastric or right upper quadrant pain",
+          "Sudden swelling of face or hands"
+        ],
+        "likely_condition": "Severe preeclampsia with impending eclampsia or HELLP syndrome."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Acute onset unilateral lower abdominal pain",
+          "Nausea and vomiting",
+          "Fever",
+          "Inability to tolerate oral intake"
+        ],
+        "likely_condition": "Ovarian torsion with ovarian ischemia and risk of necrosis."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "High fever",
+          "Chills",
+          "Severe lower abdominal pain",
+          "Foul-smelling vaginal discharge",
+          "Dizziness or confusion"
+        ],
+        "likely_condition": "Tubo-ovarian abscess or acute PID progressing to septic shock."
+      }
+    ]
+  },
+  {
+    "department": "Urology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "nocturia",
+          "weak urinary stream",
+          "urinary frequency",
+          "incomplete bladder emptying"
+        ],
+        "likely_condition": "Benign prostatic hyperplasia causing mild lower urinary tract symptoms without acute retention or infection."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "perineal pain",
+          "dysuria",
+          "pelvic discomfort",
+          "painful ejaculation"
+        ],
+        "likely_condition": "Chronic prostatitis/chronic pelvic pain syndrome with no systemic signs of acute bacterial infection."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "difficulty achieving erection",
+          "reduced sexual desire",
+          "occasional premature ejaculation"
+        ],
+        "likely_condition": "Erectile dysfunction likely multifactorial, including vascular and psychological etiologies, without acute cardiovascular or neurological concerns."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "urinary urgency",
+          "frequency",
+          "urge incontinence",
+          "nocturia"
+        ],
+        "likely_condition": "Overactive bladder syndrome with no evidence of concurrent urinary tract infection or neurogenic bladder."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "intermittent mild flank pain",
+          "microscopic hematuria",
+          "no fever or severe colicky pain"
+        ],
+        "likely_condition": "Non-obstructing renal calculus likely causing mild symptoms without hydronephrosis or infection on imaging."
+      }
+    ]
+  },
+  {
+    "department": "Urology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "weak urinary stream",
+          "nocturia",
+          "incomplete bladder emptying"
+        ],
+        "likely_condition": "Benign prostatic hyperplasia with progressive lower urinary tract symptoms."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "dysuria",
+          "urinary frequency",
+          "suprapubic discomfort"
+        ],
+        "likely_condition": "Acute uncomplicated cystitis."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "intermittent flank pain",
+          "gross hematuria",
+          "nausea"
+        ],
+        "likely_condition": "Ureteral calculus without obstruction or infection."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "urinary urgency",
+          "frequency",
+          "nocturia"
+        ],
+        "likely_condition": "Overactive bladder syndrome."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "chronic pelvic pain",
+          "painful ejaculation",
+          "mild dysuria"
+        ],
+        "likely_condition": "Chronic prostatitis/chronic pelvic pain syndrome."
+      }
+    ]
+  },
+  {
+    "department": "Urology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Severe flank pain radiating to groin",
+          "Gross hematuria",
+          "Nausea and vomiting"
+        ],
+        "likely_condition": "Ureteral calculus with obstruction causing renal colic."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Inability to void",
+          "Lower abdominal distension and pain",
+          "Palpable suprapubic bladder"
+        ],
+        "likely_condition": "Acute urinary retention likely secondary to benign prostatic hyperplasia or urethral obstruction."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Sudden onset severe scrotal pain",
+          "High-riding testicle with absent cremasteric reflex",
+          "Nausea and vomiting"
+        ],
+        "likely_condition": "Testicular torsion requiring emergent surgical detorsion to salvage testicular function."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Severe perineal or scrotal pain",
+          "Rapidly spreading swelling and erythema of perineum",
+          "Fever and systemic toxicity"
+        ],
+        "likely_condition": "Necrotizing fasciitis of the perineum (Fournier's gangrene) with high risk of sepsis and mortality."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Prolonged erection lasting >4 hours",
+          "Penile pain and rigidity",
+          "Impaired blood flow on examination"
+        ],
+        "likely_condition": "Ischemic priapism requiring urgent decompression to prevent permanent erectile tissue damage."
+      }
+    ]
+  },
+  {
+    "department": "ENT / Otolaryngology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "nasal congestion",
+          "watery rhinorrhea",
+          "recurrent sneezing",
+          "nasal itching"
+        ],
+        "likely_condition": "Allergic rhinitis due to seasonal or perennial allergens."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "gradual bilateral hearing loss",
+          "difficulty understanding speech in noise",
+          "high-pitched tinnitus"
+        ],
+        "likely_condition": "Presbycusis, age-related sensorineural hearing loss."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "persistent hoarseness",
+          "voice fatigue after prolonged speaking",
+          "frequent throat clearing"
+        ],
+        "likely_condition": "Vocal cord nodules from chronic voice overuse or misuse."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "brief episodes of vertigo with head position changes",
+          "associated nausea",
+          "transient imbalance"
+        ],
+        "likely_condition": "Benign paroxysmal positional vertigo due to displaced otoconia in the semicircular canals."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "aural fullness",
+          "popping or clicking sounds in ears",
+          "mild conductive hearing loss"
+        ],
+        "likely_condition": "Eustachian tube dysfunction often related to allergies or barometric pressure changes."
+      }
+    ]
+  },
+  {
+    "department": "ENT / Otolaryngology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "facial pain",
+          "purulent nasal discharge",
+          "nasal congestion",
+          "hyposmia"
+        ],
+        "likely_condition": "Acute bacterial sinusitis complicating chronic rhinosinusitis."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "muffled hearing",
+          "ear fullness",
+          "ear popping"
+        ],
+        "likely_condition": "Otitis media with effusion causing conductive hearing loss."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "persistent hoarseness",
+          "voice fatigue",
+          "throat clearing"
+        ],
+        "likely_condition": "Laryngopharyngeal reflux or early laryngeal neoplasia."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "anterior neck mass",
+          "mild dysphagia",
+          "chronic cough"
+        ],
+        "likely_condition": "Thyroid nodule with local compressive and irritative symptoms."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "recurrent nosebleeds",
+          "nasal crusting",
+          "easy bruising"
+        ],
+        "likely_condition": "Anterior epistaxis from Kiesselbach's plexus or mild bleeding diathesis."
+      }
+    ]
+  },
+  {
+    "department": "ENT / Otolaryngology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Stridor",
+          "Dyspnea",
+          "Drooling",
+          "Muffled voice"
+        ],
+        "likely_condition": "Acute epiglottitis with rapid upper airway obstruction requiring emergent airway intervention."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Profuse posterior nasal bleeding",
+          "Hemodynamic instability",
+          "Tachycardia",
+          "Pallor"
+        ],
+        "likely_condition": "Severe posterior epistaxis from arterial rupture or coagulopathy with risk of exsanguination."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Sudden unilateral facial paralysis",
+          "Sensorineural hearing loss",
+          "Vertigo",
+          "Taste disturbance"
+        ],
+        "likely_condition": "Acute facial nerve palsy with hearing loss suggesting stroke or cerebellopontine angle pathology."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Neck swelling",
+          "Trismus",
+          "Dysphagia",
+          "Fever"
+        ],
+        "likely_condition": "Deep neck space infection such as parapharyngeal abscess with potential airway compromise or mediastinitis."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Persistent hoarseness",
+          "Odynophagia",
+          "Unilateral cervical lymphadenopathy",
+          "Weight loss"
+        ],
+        "likely_condition": "Advanced laryngeal carcinoma with nodal metastasis and systemic involvement."
+      }
+    ]
+  },
+  {
+    "department": "Endocrinology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Gradual, painless enlargement of the neck over 1-2 years",
+          "Mild difficulty swallowing solid foods",
+          "Occasional hoarseness without infection"
+        ],
+        "likely_condition": "A stable, non-toxic multinodular goiter without compressive symptoms severe enough to require urgent intervention."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Chronic, mild fatigue and low energy",
+          "Intolerance to cold temperatures",
+          "Constipation and dry skin"
+        ],
+        "likely_condition": "Subclinical or mild overt hypothyroidism with stable, non-urgent laboratory values and no cardiac or myxedema coma risk factors."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Irregular menstrual cycles (oligomenorrhea) for 6 months",
+          "New-onset mild facial hirsutism",
+          "Difficulty with weight management despite diet/exercise"
+        ],
+        "likely_condition": "Stable polycystic ovary syndrome (PCOS) without current infertility concerns or severe hyperandrogenic symptoms requiring immediate treatment."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Recurrent, mild episodes of lightheadedness 1-2 hours after meals",
+          "Occasional palpitations and tremor",
+          "Hunger and weakness relieved by eating"
+        ],
+        "likely_condition": "Suspected reactive hypoglycemia or benign postprandial syndrome without documented severe neuroglycopenia or diabetes medication use."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Decreased libido and erectile dysfunction over several months",
+          "Mild decrease in facial/body hair density",
+          "Fatigue out of proportion to sleep duration"
+        ],
+        "likely_condition": "Suspected primary or secondary hypogonadism in a stable patient without acute adrenal insufficiency or pituitary apoplexy signs."
+      }
+    ]
+  },
+  {
+    "department": "Endocrinology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "polyuria",
+          "polydipsia",
+          "unintentional weight loss",
+          "fatigue"
+        ],
+        "likely_condition": "New-onset or uncontrolled type 2 diabetes mellitus with persistent hyperglycemia."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "palpitations",
+          "weight loss despite increased appetite",
+          "tremor",
+          "heat intolerance"
+        ],
+        "likely_condition": "Hyperthyroidism, likely due to Graves' disease or toxic multinodular goiter."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "hypertension",
+          "central obesity",
+          "purple striae",
+          "proximal muscle weakness"
+        ],
+        "likely_condition": "Cushing's syndrome, often from an ACTH-secreting pituitary adenoma or adrenal lesion."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "galactorrhea",
+          "menstrual irregularities",
+          "infertility",
+          "headaches"
+        ],
+        "likely_condition": "Prolactin-secreting pituitary adenoma (prolactinoma) causing hyperprolactinemia."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "recurrent nephrolithiasis",
+          "bone pain",
+          "fatigue",
+          "constipation"
+        ],
+        "likely_condition": "Primary hyperparathyroidism due to a parathyroid adenoma with hypercalcemia."
+      }
+    ]
+  },
+  {
+    "department": "Endocrinology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "altered mental status",
+          "Kussmaul respirations",
+          "severe dehydration",
+          "nausea/vomiting"
+        ],
+        "likely_condition": "Diabetic ketoacidosis likely due to insulin deficiency in type 1 or severe type 2 diabetes mellitus."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "tachycardia",
+          "high fever",
+          "agitation/delirium",
+          "nausea/vomiting"
+        ],
+        "likely_condition": "Thyroid storm precipitated by infection, surgery, or trauma in a patient with uncontrolled hyperthyroidism."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "hypotensive shock",
+          "severe fatigue",
+          "nausea/vomiting",
+          "abdominal pain"
+        ],
+        "likely_condition": "Adrenal crisis due to acute primary or secondary adrenal insufficiency, often from autoimmune adrenalitis or abrupt steroid cessation."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "loss of consciousness",
+          "seizures",
+          "confusion",
+          "sweating"
+        ],
+        "likely_condition": "Critical hypoglycemia likely from insulin overdose, insulinoma, or adrenal insufficiency in a diabetic or non-diabetic patient."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "altered mental status",
+          "cardiac arrhythmias",
+          "polyuria",
+          "nausea/vomiting"
+        ],
+        "likely_condition": "Hypercalcemic crisis due to primary hyperparathyroidism, malignancy, or granulomatous disease causing severe hypercalcemia."
+      }
+    ]
+  },
+  {
+    "department": "Ophthalmology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "gritty or foreign body sensation",
+          "intermittent blurred vision",
+          "redness",
+          "photophobia"
+        ],
+        "likely_condition": "Evaporative dry eye syndrome secondary to meibomian gland dysfunction."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "intense itching",
+          "watery discharge",
+          "eyelid edema",
+          "stringy mucus discharge"
+        ],
+        "likely_condition": "Seasonal allergic conjunctivitis mediated by IgE response to environmental allergens."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "gradual decrease in visual acuity",
+          "increased glare sensitivity",
+          "difficulty with night driving",
+          "faded color perception"
+        ],
+        "likely_condition": "Age-related nuclear cataract causing progressive lens opacity and light scatter."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "difficulty focusing on near objects",
+          "eye strain during reading",
+          "headaches after prolonged near work",
+          "need for brighter light"
+        ],
+        "likely_condition": "Presbyopia due to age-related loss of lens accommodation."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "eyelid margin redness and scaling",
+          "crusting on eyelashes upon waking",
+          "burning sensation",
+          "recurrent chalazia"
+        ],
+        "likely_condition": "Chronic posterior blepharitis associated with bacterial colonization or seborrheic dermatitis."
+      }
+    ]
+  },
+  {
+    "department": "Ophthalmology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "severe eye pain",
+          "photophobia",
+          "blurred vision",
+          "conjunctival redness"
+        ],
+        "likely_condition": "Anterior uveitis, an inflammatory condition of the iris and ciliary body, often idiopathic or associated with autoimmune disorders like HLA-B27 spondyloarthropathies."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "acute vision loss",
+          "pain with eye movement",
+          "reduced color perception"
+        ],
+        "likely_condition": "Optic neuritis, typically demyelinating, frequently linked to multiple sclerosis or other inflammatory demyelinating diseases."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "intense foreign body sensation",
+          "excessive tearing",
+          "photophobia",
+          "blurred vision"
+        ],
+        "likely_condition": "Corneal abrasion, a traumatic epithelial defect commonly caused by foreign bodies or contact lens-related injury."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "purulent eyelid discharge",
+          "conjunctival hyperemia",
+          "eyelid crusting",
+          "ocular irritation"
+        ],
+        "likely_condition": "Bacterial conjunctivitis, an acute infection of the conjunctiva, typically caused by Staphylococcus aureus or Streptococcus pneumoniae."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "sudden painless vision loss",
+          "blurred vision",
+          "paracentral scotoma"
+        ],
+        "likely_condition": "Retinal vein occlusion, involving thrombotic blockage of central or branch retinal veins, often associated with hypertension, diabetes, or hypercoagulable states."
+      }
+    ]
+  },
+  {
+    "department": "Ophthalmology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "severe unilateral ocular pain",
+          "blurred vision",
+          "halos around lights",
+          "nausea and vomiting"
+        ],
+        "likely_condition": "Acute angle-closure glaucoma due to pupillary block causing rapid intraocular pressure elevation."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "sudden onset of a curtain-like visual field loss",
+          "flashes of light (photopsia)",
+          "rapid increase in floaters"
+        ],
+        "likely_condition": "Rhegmatogenous retinal detachment from a retinal tear leading to fluid accumulation under the retina."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "acute decrease in vision",
+          "severe ocular pain",
+          "conjunctival injection (red eye)",
+          "anterior chamber hypopyon"
+        ],
+        "likely_condition": "Bacterial endophthalmitis following cataract surgery or intravitreal injection."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "sudden painless monocular vision loss",
+          "altitudinal visual field defect",
+          "optic disc swelling on examination"
+        ],
+        "likely_condition": "Non-arteritic anterior ischemic optic neuropathy due to compromised posterior ciliary artery blood flow."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "fever",
+          "progressive periorbital edema and erythema",
+          "pain with eye movement",
+          "ophthalmoplegia (restricted eye movements)"
+        ],
+        "likely_condition": "Bacterial orbital cellulitis, often complicating sinusitis, with risk of cavernous sinus thrombosis."
+      }
+    ]
+  },
+  {
+    "department": "Nephrology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Fatigue",
+          "Mild bilateral ankle edema",
+          "Nocturia once per night"
+        ],
+        "likely_condition": "Stage 3 chronic kidney disease secondary to hypertensive nephropathy, with stable renal function over the past year."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Resistant hypertension requiring three medications",
+          "Intermittent abdominal bruit",
+          "No recent change in serum creatinine"
+        ],
+        "likely_condition": "Atherosclerotic renal artery stenosis with adequately controlled blood pressure and no evidence of ischemic nephropathy."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Intermittent muscle cramps",
+          "Mild generalized weakness",
+          "Serum potassium consistently 5.2-5.4 mEq/L"
+        ],
+        "likely_condition": "Chronic mild hyperkalemia due to stage 3 CKD and angiotensin-converting enzyme inhibitor therapy, stable."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Intermittent frothy urine",
+          "No edema or hematuria",
+          "Urine protein-to-creatinine ratio 300 mg/g"
+        ],
+        "likely_condition": "Orthostatic proteinuria in a young adult with normal renal function, benign and stable."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Intermittent dull flank pain",
+          "No gross hematuria or colic",
+          "History of calcium oxalate stone passage"
+        ],
+        "likely_condition": "Recurrent nephrolithiasis due to idiopathic hypercalciuria, managed with dietary modifications and hydration."
+      }
+    ]
+  },
+  {
+    "department": "Nephrology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "decreased urine output",
+          "bilateral lower extremity edema",
+          "fatigue"
+        ],
+        "likely_condition": "Advanced chronic kidney disease with volume overload requiring evaluation for renal replacement therapy."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "episodic muscle weakness",
+          "muscle cramps",
+          "palpitations"
+        ],
+        "likely_condition": "Renal potassium wasting disorder such as Gitelman syndrome or diuretic-induced hypokalemia."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "resistant hypertension",
+          "headaches",
+          "blurred vision"
+        ],
+        "likely_condition": "Secondary hypertension from renal artery stenosis necessitating imaging and possible intervention."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "frothy urine",
+          "periorbital edema",
+          "unintentional weight gain"
+        ],
+        "likely_condition": "Nephrotic syndrome due to a primary glomerular disease like minimal change or membranous nephropathy."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "pruritus",
+          "bone pain",
+          "fatigue"
+        ],
+        "likely_condition": "Chronic kidney disease-mineral and bone disorder (CKD-MBD) with hyperphosphatemia and secondary hyperparathyroidism."
+      }
+    ]
+  },
+  {
+    "department": "Nephrology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Palpitations",
+          "Muscle weakness",
+          "Nausea",
+          "Oliguria"
+        ],
+        "likely_condition": "Acute kidney injury with severe hyperkalemia, likely from acute tubular necrosis or drug-induced nephrotoxicity."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Oliguria",
+          "Tea-colored urine",
+          "Periorbital edema",
+          "Severe hypertension"
+        ],
+        "likely_condition": "Rapidly progressive glomerulonephritis, such as ANCA-associated vasculitis or lupus nephritis."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Shortness of breath",
+          "Unilateral calf pain and swelling",
+          "Frothy urine"
+        ],
+        "likely_condition": "Nephrotic syndrome complicated by deep vein thrombosis and possible pulmonary embolism."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Anuria",
+          "Severe flank pain",
+          "Nausea and vomiting"
+        ],
+        "likely_condition": "Bilateral ureteral obstruction causing acute kidney injury, possibly from urolithiasis or pelvic malignancy."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Headache and visual disturbances",
+          "Chest pain",
+          "Oliguria",
+          "Severe hypertension"
+        ],
+        "likely_condition": "Malignant hypertension with acute kidney injury and imminent risk of encephalopathy or stroke."
+      }
+    ]
+  },
+  {
+    "department": "Infectious Disease",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "asymptomatic leukocytosis on routine lab",
+          "mild intermittent low-grade fevers",
+          "night sweats",
+          "unexplained weight loss over 3 months"
+        ],
+        "likely_condition": "Latent tuberculosis infection, evaluated as part of a contact investigation."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "recurrent mild dysuria",
+          "urinary frequency without urgency",
+          "suprapubic pressure",
+          "negative urine dipstick for nitrites/leukocyte esterase"
+        ],
+        "likely_condition": "Chronic prostatitis or bladder pain syndrome, with consideration of atypical uropathogen."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "persistent non-pruritic maculopapular rash on trunk",
+          "low-grade arthralgias",
+          "mild headache",
+          "recent travel to endemic area for rickettsial disease"
+        ],
+        "likely_condition": "Mediterranean spotted fever (Rickettsia conorii) with mild, subacute presentation."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "intermittent odynophagia",
+          "mild oral erythema without pseudomembranes",
+          "known HIV with CD4 count >350",
+          "no dysphagia or systemic symptoms"
+        ],
+        "likely_condition": "Recurrent oropharyngeal candidiasis in a virologically suppressed patient with preserved immunity."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "persistent greasy, foul-smelling stools",
+          "bloating and flatulence",
+          "recent consumption of untreated water while hiking",
+          "no fever or blood in stool"
+        ],
+        "likely_condition": "Chronic diarrhea due to Giardia duodenalis infection, likely acquired from a point-source exposure."
+      }
+    ]
+  },
+  {
+    "department": "Infectious Disease",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "fever",
+          "localized erythema",
+          "edema",
+          "tenderness"
+        ],
+        "likely_condition": "Cellulitis, likely due to beta-hemolytic streptococci or Staphylococcus aureus."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "dysuria",
+          "urinary frequency",
+          "suprapubic tenderness",
+          "low-grade fever"
+        ],
+        "likely_condition": "Acute uncomplicated cystitis, most commonly caused by Escherichia coli."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "productive cough",
+          "fever",
+          "pleuritic chest pain",
+          "dyspnea on exertion"
+        ],
+        "likely_condition": "Community-acquired pneumonia, probable Streptococcus pneumoniae etiology."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "watery diarrhea",
+          "nausea",
+          "vomiting",
+          "mild dehydration"
+        ],
+        "likely_condition": "Acute viral gastroenteritis, likely norovirus or other viral pathogen."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "fever",
+          "pharyngitis",
+          "cervical lymphadenopathy",
+          "fatigue"
+        ],
+        "likely_condition": "Infectious mononucleosis caused by Epstein-Barr virus."
+      }
+    ]
+  },
+  {
+    "department": "Infectious Disease",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "hypotension",
+          "fever",
+          "abdominal pain",
+          "vomiting",
+          "confusion"
+        ],
+        "likely_condition": "Septic shock secondary to intra-abdominal infection such as perforated viscus."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "altered mental status",
+          "neck stiffness",
+          "fever",
+          "headache"
+        ],
+        "likely_condition": "Acute bacterial meningitis, most commonly caused by Streptococcus pneumoniae."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "shortness of breath",
+          "fever",
+          "productive cough",
+          "pleuritic chest pain"
+        ],
+        "likely_condition": "Severe community-acquired pneumonia with possible Staphylococcus aureus or Legionella pneumophila."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "severe pain out of proportion",
+          "skin erythema",
+          "swelling",
+          "bullae",
+          "fever"
+        ],
+        "likely_condition": "Necrotizing fasciitis, typically polymicrobial or Group A Streptococcus."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "seizures",
+          "focal neurological deficits",
+          "fever",
+          "headache",
+          "altered mental status"
+        ],
+        "likely_condition": "Herpes simplex virus type 1 encephalitis with temporal lobe involvement."
+      }
+    ]
+  },
+  {
+    "department": "Allergy & Immunology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "daily hives",
+          "pruritus",
+          "symptoms lasting >6 weeks",
+          "no angioedema or anaphylaxis"
+        ],
+        "likely_condition": "Chronic spontaneous urticaria, likely autoimmune or idiopathic."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "seasonal sneezing",
+          "nasal congestion",
+          "itchy watery eyes",
+          "symptoms correlated with pollen exposure"
+        ],
+        "likely_condition": "Seasonal allergic rhinitis due to grass or tree pollen."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "intermittent wheezing",
+          "cough at night",
+          "mild dyspnea on exertion",
+          "stable on controller therapy"
+        ],
+        "likely_condition": "Mild persistent asthma, well-controlled with low-dose inhaled corticosteroids."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "oral itching and swelling with raw fruits",
+          "symptoms within minutes of ingestion",
+          "no systemic reactions",
+          "history of seasonal pollen allergy"
+        ],
+        "likely_condition": "Pollen-food allergy syndrome (oral allergy syndrome) associated with birch or ragweed pollen."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "history of localized reaction to insect sting",
+          "on maintenance venom immunotherapy",
+          "no recent sting reactions",
+          "seeking therapy continuation"
+        ],
+        "likely_condition": "Hymenoptera venom allergy with successful desensitization in progress."
+      }
+    ]
+  },
+  {
+    "department": "Allergy & Immunology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "severe nasal congestion",
+          "watery itchy eyes",
+          "recurrent sneezing"
+        ],
+        "likely_condition": "Seasonal allergic rhinitis due to pollen exposure."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "wheezing on expiration",
+          "shortness of breath with mild exertion",
+          "increased nocturnal cough"
+        ],
+        "likely_condition": "Allergic asthma, moderate persistent, with recent exacerbation."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "daily appearance of wheals",
+          "intense pruritus",
+          "recurrent angioedema of hands"
+        ],
+        "likely_condition": "Chronic spontaneous urticaria, likely autoimmune in nature."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "oral pruritus and tingling",
+          "perioral urticaria",
+          "mild lip swelling after peanut consumption"
+        ],
+        "likely_condition": "New-onset IgE-mediated peanut allergy."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "widespread eczematous rash",
+          "oozing and crusted lesions",
+          "low-grade fever"
+        ],
+        "likely_condition": "Atopic dermatitis with suspected Staphylococcus aureus superinfection."
+      }
+    ]
+  },
+  {
+    "department": "Allergy & Immunology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Throat tightness",
+          "Shortness of breath",
+          "Dizziness",
+          "Hives"
+        ],
+        "likely_condition": "Acute IgE-mediated anaphylaxis likely due to food allergen ingestion."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Wheezing",
+          "Chest tightness",
+          "Inability to speak in full sentences",
+          "Cyanosis"
+        ],
+        "likely_condition": "Severe allergic asthma exacerbation triggered by environmental allergens."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Voice changes",
+          "Difficulty swallowing",
+          "Tongue swelling",
+          "Stridor"
+        ],
+        "likely_condition": "Hereditary angioedema attack with laryngeal edema and airway compromise risk."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Fever",
+          "Urticaria",
+          "Arthralgia",
+          "Lymphadenopathy"
+        ],
+        "likely_condition": "Serum sickness-like reaction to recent antibiotic or antiserum administration."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Fever",
+          "Generalized erythematous rash",
+          "Facial edema",
+          "Malaise"
+        ],
+        "likely_condition": "Drug reaction with eosinophilia and systemic symptoms (DRESS) from anticonvulsant therapy."
+      }
+    ]
+  },
+  {
+    "department": "Rheumatology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Chronic knee pain worsening with activity",
+          "Morning stiffness lasting less than 30 minutes",
+          "Crepitus on joint movement",
+          "Intermittent mild swelling"
+        ],
+        "likely_condition": "Primary osteoarthritis, degenerative joint disease with stable symptoms."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Widespread musculoskeletal pain for over 3 months",
+          "Persistent fatigue unrelieved by rest",
+          "Non-restorative sleep",
+          "Cognitive 'fibro fog'"
+        ],
+        "likely_condition": "Fibromyalgia syndrome, a centralized pain disorder without acute inflammation."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Intermittent dull ache in the first metatarsophalangeal joint",
+          "Mild swelling without erythema or warmth",
+          "History of self-limited gout flares",
+          "No fever or systemic symptoms"
+        ],
+        "likely_condition": "Chronic gout in an intercritical phase with low disease activity."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Mild swelling in distal interphalangeal joints",
+          "Scaly skin plaques on elbows and scalp",
+          "Nail pitting and onycholysis",
+          "Brief morning stiffness under 30 minutes"
+        ],
+        "likely_condition": "Psoriatic arthritis with stable cutaneous and articular manifestations."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Bilateral dry eyes requiring artificial tears",
+          "Persistent dry mouth affecting swallowing",
+          "Fatigue of moderate severity",
+          "Occasional symmetric joint stiffness"
+        ],
+        "likely_condition": "Primary Sjögren's syndrome, an autoimmune condition with predominant sicca symptoms."
+      }
+    ]
+  },
+  {
+    "department": "Rheumatology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Symmetric swelling of metacarpophalangeal and proximal interphalangeal joints",
+          "Morning stiffness lasting >1 hour",
+          "Fatigue and malaise"
+        ],
+        "likely_condition": "Early seropositive rheumatoid arthritis with potential anti-CCP positivity."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Malar rash over cheeks and nose worsened by sun exposure",
+          "Non-erosive polyarthritis",
+          "Photosensitivity",
+          "Recurrent painless oral ulcers"
+        ],
+        "likely_condition": "Systemic lupus erythematosus with cutaneous and articular involvement, no major organ disease."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Chronic low back pain improving with physical activity",
+          "Morning lumbar stiffness >30 minutes",
+          "Peripheral enthesitis or arthritis in lower limbs"
+        ],
+        "likely_condition": "Axial spondyloarthropathy, such as ankylosing spondylitis, with sacroiliitis on imaging."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Bilateral shoulder pain and stiffness",
+          "Morning stiffness >45 minutes",
+          "Hip pain limiting daily activities",
+          "Low-grade fever and fatigue"
+        ],
+        "likely_condition": "Polymyalgia rheumatica with proximal muscle inflammation and systemic symptoms."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Dry eyes with gritty or burning sensation",
+          "Xerostomia requiring frequent water intake",
+          "Bilateral parotid gland enlargement"
+        ],
+        "likely_condition": "Primary Sjögren's syndrome with sicca symptoms and salivary gland involvement."
+      }
+    ]
+  },
+  {
+    "department": "Rheumatology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Headache",
+          "Vision loss",
+          "Jaw claudication",
+          "Scalp tenderness"
+        ],
+        "likely_condition": "Giant cell arteritis with high risk for permanent vision impairment."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Acute severe joint pain",
+          "Joint swelling and warmth",
+          "Fever",
+          "Inability to bear weight"
+        ],
+        "likely_condition": "Septic arthritis requiring emergent joint aspiration and intravenous antibiotics."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Rapidly rising creatinine",
+          "Hematuria",
+          "New-onset hypertension",
+          "Peripheral edema"
+        ],
+        "likely_condition": "Active lupus nephritis with rapid decline in renal function."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Progressive proximal muscle weakness",
+          "Dyspnea on exertion",
+          "Dysphagia",
+          "Myalgia"
+        ],
+        "likely_condition": "Inflammatory myopathy with interstitial lung disease or respiratory muscle involvement."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Hemoptysis",
+          "Rapidly progressive glomerulonephritis",
+          "Sinusitis",
+          "Palpable purpura"
+        ],
+        "likely_condition": "ANCA-associated vasculitis, such as granulomatosis with polyangiitis, presenting with pulmonary-renal syndrome."
+      }
+    ]
+  },
+  {
+    "department": "Dentistry / Oral Surgery",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "jaw pain or tenderness",
+          "clicking or popping sound in the temporomandibular joint",
+          "morning headache or facial ache"
+        ],
+        "likely_condition": "Temporomandibular joint disorder (TMD) likely secondary to bruxism or parafunctional habits."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "gradual tooth discoloration (yellow or brown stains)",
+          "mild gingival asymmetry or irregular gum line",
+          "patient expresses cosmetic concern without functional symptoms"
+        ],
+        "likely_condition": "Extrinsic tooth staining or minor gingival contour issues, often related to diet or hygiene."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "transient sensitivity to cold or sweet stimuli",
+          "visible dark spot or cavitation on tooth surface",
+          "mild, intermittent ache without spontaneous pain or swelling"
+        ],
+        "likely_condition": "Dental caries (cavity) confined to enamel or outer dentin without pulp involvement."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "bleeding gums during toothbrushing or flossing",
+          "erythematous and swollen gingiva",
+          "no radiographic evidence of bone loss or tooth mobility"
+        ],
+        "likely_condition": "Plaque-induced chronic gingivitis, reversible with improved oral hygiene."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "painful ulcer on non-keratinized oral mucosa (e.g., inner cheek)",
+          "difficulty consuming acidic or spicy foods",
+          "ulcer diameter less than 1 cm with healing within 1-2 weeks"
+        ],
+        "likely_condition": "Minor recurrent aphthous stomatitis (canker sore), typically self-limiting."
+      }
+    ]
+  },
+  {
+    "department": "Dentistry / Oral Surgery",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Severe throbbing tooth pain",
+          "Facial swelling",
+          "Fever",
+          "Tenderness to palpation"
+        ],
+        "likely_condition": "Acute periapical abscess secondary to untreated dental caries."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Avulsed tooth",
+          "Bleeding from socket",
+          "Facial pain",
+          "Soft tissue laceration"
+        ],
+        "likely_condition": "Avulsion of maxillary central incisor due to traumatic injury."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Painful submandibular swelling",
+          "Fever",
+          "Purulent duct discharge",
+          "Dysphagia"
+        ],
+        "likely_condition": "Acute bacterial sialadenitis, likely obstructive in origin."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Inability to close mouth",
+          "Preauricular swelling",
+          "Jaw pain",
+          "Difficulty speaking"
+        ],
+        "likely_condition": "Anterior dislocation of the temporomandibular joint."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Severe throbbing pain",
+          "Exposed alveolar bone",
+          "Foul odor",
+          "Radiating pain to ear"
+        ],
+        "likely_condition": "Alveolar osteitis (dry socket) following recent tooth extraction."
+      }
+    ]
+  },
+  {
+    "department": "Dentistry / Oral Surgery",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Dyspnea",
+          "Submandibular swelling",
+          "Fever",
+          "Muffled voice"
+        ],
+        "likely_condition": "Ludwig's angina, a rapidly spreading cellulitis of the submandibular space that can obstruct the airway and requires emergent intervention."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Avulsed permanent maxillary incisor",
+          "Oral hemorrhage",
+          "Facial laceration",
+          "Inability to achieve occlusion"
+        ],
+        "likely_condition": "Traumatic dental avulsion with associated alveolar bone fracture and soft tissue injury, necessitating urgent re-implantation and stabilization."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Persistent ulcer on lateral border of tongue",
+          "Indurated and raised margins",
+          "Odynophagia",
+          "Unintentional weight loss"
+        ],
+        "likely_condition": "Invasive squamous cell carcinoma of the oral tongue with potential for regional metastasis, requiring prompt biopsy and staging."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Severe throbbing tooth pain",
+          "Facial swelling over maxillary molar region",
+          "Temperature >38.5°C",
+          "Trismus due to masseter spasm"
+        ],
+        "likely_condition": "Acute periapical abscess with extension into the buccal space, indicating fascial space involvement and risk of systemic spread."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Malocclusion with anterior open bite",
+          "Numbness in bilateral lower lip and chin",
+          "Facial swelling and ecchymosis",
+          "Mobility of mandibular segments"
+        ],
+        "likely_condition": "Displaced fracture of the mandibular symphysis with inferior alveolar nerve involvement, requiring urgent reduction to restore function and prevent neuropathy."
+      }
+    ]
+  },
+  {
+    "department": "Oncology",
+    "urgency": "Low",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "New but stable pigmented skin lesion",
+          "Mild pruritus"
+        ],
+        "likely_condition": "Benign nevus or post-inflammatory hyperpigmentation in a melanoma survivor."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Intermittent abdominal bloating",
+          "Occasional loose stools"
+        ],
+        "likely_condition": "Irritable bowel syndrome in a colon cancer patient in remission."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Decreased libido",
+          "Mild hot flashes"
+        ],
+        "likely_condition": "Adverse effects of androgen deprivation therapy for prostate cancer."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Persistent fatigue",
+          "Occasional night sweats"
+        ],
+        "likely_condition": "Anemia of chronic disease or sleep apnea in a lymphoma survivor."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Dyspnea on exertion",
+          "Chronic productive cough"
+        ],
+        "likely_condition": "Chronic obstructive pulmonary disease in a former smoker with history of lung cancer."
+      }
+    ]
+  },
+  {
+    "department": "Oncology",
+    "urgency": "Medium",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "night sweats",
+          "easy bruising",
+          "fatigue"
+        ],
+        "likely_condition": "Hodgkin lymphoma is suspected due to B symptoms and thrombocytopenia."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "unintentional weight loss",
+          "change in bowel habits",
+          "abdominal pain"
+        ],
+        "likely_condition": "Colorectal adenocarcinoma is the most likely underlying condition."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "hemoptysis",
+          "persistent cough",
+          "shortness of breath"
+        ],
+        "likely_condition": "Non-small cell lung cancer is probable given the respiratory symptoms."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "palpable breast mass",
+          "nipple retraction",
+          "skin dimpling"
+        ],
+        "likely_condition": "Invasive ductal carcinoma of the breast is indicated by these local signs."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "hematuria",
+          "flank pain",
+          "urinary frequency"
+        ],
+        "likely_condition": "Urothelial carcinoma or renal cell carcinoma should be considered based on these urinary symptoms."
+      }
+    ]
+  },
+  {
+    "department": "Oncology",
+    "urgency": "High",
+    "symptom_clusters": [
+      {
+        "cluster_id": 1,
+        "symptoms": [
+          "Fever >38.3°C",
+          "Hypotension",
+          "Tachycardia",
+          "Mucositis"
+        ],
+        "likely_condition": "Febrile neutropenia in a chemotherapy recipient, indicating high risk of sepsis and requiring immediate intervention."
+      },
+      {
+        "cluster_id": 2,
+        "symptoms": [
+          "Lower extremity weakness",
+          "Bowel incontinence",
+          "Urinary retention",
+          "Acute back pain"
+        ],
+        "likely_condition": "Metastatic epidural spinal cord compression from vertebral metastasis, threatening permanent neurological deficit."
+      },
+      {
+        "cluster_id": 3,
+        "symptoms": [
+          "Dyspnea",
+          "Facial swelling",
+          "Cough",
+          "Chest pain"
+        ],
+        "likely_condition": "Superior vena cava syndrome due to mediastinal malignancy, such as non-small cell lung cancer, causing airway compromise."
+      },
+      {
+        "cluster_id": 4,
+        "symptoms": [
+          "Confusion",
+          "Polyuria",
+          "Nausea",
+          "Muscle weakness"
+        ],
+        "likely_condition": "Severe hypercalcemia of malignancy, often from bone metastases or multiple myeloma, leading to metabolic encephalopathy."
+      },
+      {
+        "cluster_id": 5,
+        "symptoms": [
+          "Oliguria",
+          "Cardiac arrhythmia",
+          "Nausea",
+          "Vomiting",
+          "Muscle cramps"
+        ],
+        "likely_condition": "Acute tumor lysis syndrome following cytotoxic therapy for high-burden hematologic malignancy, causing metabolic crisis and renal failure."
+      }
+    ]
+  }
+]
