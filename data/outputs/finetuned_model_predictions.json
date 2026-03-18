@@ -38,13 +38,12 @@
       "sentiment": "distressed",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Mental Health\",\n  \"symptoms\": [\n    \"depression\",\n    \"upset\",\n    \"mood swings\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Mental Health\",\n  \"symptoms\": [\n    \"depression\",\n    \"easily upset\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Mental Health",
       "symptoms": [
         "depression",
-        "upset",
-        "mood swings"
+        "easily upset"
       ],
       "condition": "Unknown",
       "sentiment": "concerned",
@@ -64,14 +63,14 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [\n    \"spotting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [\n    \"spotting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Obstetrics and Gynecology",
       "symptoms": [
         "spotting"
       ],
       "condition": "Unknown",
-      "sentiment": "Anxious",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -234,14 +233,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"abnormal odor\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"abnormal odor\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
         "abnormal odor"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -258,14 +257,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pulmonology",
       "symptoms": [
         "cough"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -448,13 +447,13 @@
       "sentiment": "Confused",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Confused\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Confused\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Confused",
-      "urgency_level": "Medium"
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -564,7 +563,7 @@
       "sentiment": "anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"tingling\",\n    \"numbness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Freaked out\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"tingling\",\n    \"numbness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
@@ -572,7 +571,7 @@
         "numbness"
       ],
       "condition": "Unknown",
-      "sentiment": "Freaked out",
+      "sentiment": "anxious",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -611,7 +610,7 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"foamy discharge\",\n    \"thick discharge\",\n    \"stringy discharge\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"foamy discharge\",\n    \"thick discharge\",\n    \"stringy discharge\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
@@ -620,7 +619,7 @@
         "stringy discharge"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "Unsure",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -658,12 +657,11 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"pressure in chest\",\n    \"discomfort\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"pressure in chest\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
-        "pressure in chest",
-        "discomfort"
+        "pressure in chest"
       ],
       "condition": "Unknown",
       "sentiment": "Unsure",
@@ -681,9 +679,9 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Addiction Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Nutrition\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Addiction Medicine",
+      "department": "Nutrition",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
@@ -704,12 +702,12 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"loss of appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"not eating\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "vomiting",
-        "loss of appetite"
+        "not eating"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -771,12 +769,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Nutrition\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Nutrition\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Nutrition",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -794,16 +792,16 @@
       "sentiment": "Concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"sharp stabbing pain\",\n    \"numbness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"sharp stabbing pain\",\n    \"numbness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
-      "department": "Neurology",
+      "department": "Emergency Medicine",
       "symptoms": [
         "sharp stabbing pain",
         "numbness"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -819,11 +817,11 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"pain in side\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"pain in the side\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Urology",
+      "department": "Gastroenterology",
       "symptoms": [
-        "pain in side"
+        "pain in the side"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -993,16 +991,16 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
-        "radiating pain"
+        "radiating pain to left scapula"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -1036,12 +1034,10 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"irregular heartbeat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Cardiology",
-      "symptoms": [
-        "irregular heartbeat"
-      ],
+      "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
       "urgency_level": "Low"
@@ -1092,14 +1088,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"spotting\",\n    \"bleeding\"\n  ],\n  \"condition\": \"Pregnancy\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"spotting\",\n    \"bleeding\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [
         "spotting",
         "bleeding"
       ],
-      "condition": "Pregnancy",
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -1251,9 +1247,9 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Obstetrics",
+      "department": "Obstetrics and Gynecology",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
@@ -1326,7 +1322,7 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
@@ -1334,7 +1330,7 @@
         "stomach pain"
       ],
       "condition": "Unknown",
-      "sentiment": "Uncertain",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -1401,12 +1397,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Endocrinology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -1588,9 +1584,9 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Plastic Surgery\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Dermatology",
+      "department": "Plastic Surgery",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
@@ -1702,14 +1698,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"frostbite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"frostbite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
         "frostbite"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -1724,12 +1720,12 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [],\n  \"condition\": \"Tuberculosis\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Tuberculosis\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Pulmonology",
+      "department": "Infectious Disease",
       "symptoms": [],
       "condition": "Tuberculosis",
-      "sentiment": "Worried",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -1769,14 +1765,15 @@
       "sentiment": "worried",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"confusion\",\n    \"disorientation\",\n    \"sweating\",\n    \"cold and clammy skin\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"confusion\",\n    \"disorientation\",\n    \"sweating\",\n    \"cold skin\",\n    \"clammy skin\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Emergency Medicine",
       "symptoms": [
         "confusion",
         "disorientation",
         "sweating",
-        "cold and clammy skin"
+        "cold skin",
+        "clammy skin"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -1885,7 +1882,7 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"tiredness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"tiredness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -1893,7 +1890,7 @@
         "tiredness"
       ],
       "condition": "Hypertension",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -1911,12 +1908,12 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"pain in chest bone area\",\n    \"discomfort when moving arm\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"chest pain\",\n    \"pain when moving arm\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
-        "pain in chest bone area",
-        "discomfort when moving arm"
+        "chest pain",
+        "pain when moving arm"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -1936,14 +1933,14 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -1961,12 +1958,12 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"cannot hear\",\n    \"feels like drops are stuck in ear\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"cannot hear\",\n    \"feeling of drops stuck in ear\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Otolaryngology",
       "symptoms": [
         "cannot hear",
-        "feels like drops are stuck in ear"
+        "feeling of drops stuck in ear"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -1986,14 +1983,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "vomiting"
       ],
       "condition": "Unknown",
-      "sentiment": "concerned",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -2204,12 +2201,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [\n    \"lymph node enlargement\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Oncology",
-      "symptoms": [],
+      "symptoms": [
+        "lymph node enlargement"
+      ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -2420,12 +2419,12 @@
       "sentiment": "Neutral",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Pharmacy",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Neutral",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -2520,15 +2519,14 @@
       "sentiment": "Frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"anxiety\",\n    \"constant symptoms\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"anxiety\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Psychiatry",
       "symptoms": [
-        "anxiety",
-        "constant symptoms"
+        "anxiety"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "Frustrated",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -2543,13 +2541,13 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Emergency Medicine",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
-      "urgency_level": "High"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -2565,13 +2563,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness"
       ],
-      "condition": "Unknown",
+      "condition": "Hypertension",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -2633,14 +2631,14 @@
       "sentiment": "Calm",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"overwhelmed\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Overwhelmed\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"overwhelmed\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Calm\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Psychiatry",
       "symptoms": [
         "overwhelmed"
       ],
       "condition": "Unknown",
-      "sentiment": "Overwhelmed",
+      "sentiment": "Calm",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -2655,12 +2653,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [],\n  \"condition\": \"Tourette's Syndrome, Obsessive Compulsive Disorder\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [],\n  \"condition\": \"Tourette's Syndrome, Obsessive Compulsive Disorder\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Psychiatry",
       "symptoms": [],
       "condition": "Tourette's Syndrome, Obsessive Compulsive Disorder",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -3100,11 +3098,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"headache\"\n  ],\n  \"condition\": \"Migraine\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"bad headaches\"\n  ],\n  \"condition\": \"Migraine\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
-        "headache"
+        "bad headaches"
       ],
       "condition": "Migraine",
       "sentiment": "Inquisitive",
@@ -3330,15 +3328,15 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"rash\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"rash\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
         "rash"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "sentiment": "Inquisitive",
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -3354,11 +3352,11 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [\n    \"coughing\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pulmonology",
       "symptoms": [
-        "coughing"
+        "cough"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -3399,15 +3397,15 @@
       "sentiment": "uncertain",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"missed period\",\n    \"spotting\"\n  ],\n  \"condition\": \"Polycystic Ovary Syndrome (PCOS)\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"missed period\",\n    \"spotting\"\n  ],\n  \"condition\": \"PCOS\",\n  \"sentiment\": \"uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
         "missed period",
         "spotting"
       ],
-      "condition": "Polycystic Ovary Syndrome (PCOS)",
-      "sentiment": "Unsure",
+      "condition": "PCOS",
+      "sentiment": "uncertain",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -3471,17 +3469,17 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"stomach pain\",\n    \"funny taste in mouth\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"abdominal pain\",\n    \"altered taste\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "vomiting",
-        "stomach pain",
-        "funny taste in mouth"
+        "abdominal pain",
+        "altered taste"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -3713,9 +3711,9 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Diseases\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Infectious Diseases",
+      "department": "Infectious Disease",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
@@ -3736,15 +3734,15 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"swollen tongue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"swollen tongue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
-      "department": "Cardiology",
+      "department": "Emergency Medicine",
       "symptoms": [
         "swollen tongue"
       ],
       "condition": "Unknown",
       "sentiment": "anxious",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -3782,12 +3780,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"upset stomach\",\n    \"frequent bathroom visits\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"upset stomach\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "upset stomach",
-        "frequent bathroom visits",
         "stomach pain"
       ],
       "condition": "Unknown",
@@ -3809,9 +3806,9 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Internal Medicine\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"shaky hands\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"shaky hands\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Internal Medicine",
+      "department": "Endocrinology",
       "symptoms": [
         "tiredness",
         "shaky hands"
@@ -3860,12 +3857,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [],\n  \"condition\": \"Herniated disc\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [],\n  \"condition\": \"Herniated disc\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [],
       "condition": "Herniated disc",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -3884,12 +3881,12 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"headache\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"headaches\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
         "tiredness",
-        "headache",
+        "headaches",
         "dizziness"
       ],
       "condition": "Unknown",
@@ -3935,14 +3932,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"lightheadedness\",\n    \"shakiness\",\n    \"tiredness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"lightheadedness\",\n    \"shakiness\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
         "dizziness",
         "lightheadedness",
         "shakiness",
-        "tiredness"
+        "fatigue"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -4010,13 +4007,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"runny nose\",\n    \"coughing\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"runny nose\",\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "vomiting",
         "runny nose",
-        "coughing"
+        "cough"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -4222,12 +4219,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Obstetrics and Gynecology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Neutral",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -4271,11 +4268,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [],\n  \"condition\": \"Parkinson's Disease\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [],\n  \"condition\": \"Parkinson's disease\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [],
-      "condition": "Parkinson's Disease",
+      "condition": "Parkinson's disease",
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
@@ -4410,14 +4407,14 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"paresthesia\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"paresthesia\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
         "paresthesia"
       ],
-      "condition": "Hypertension",
+      "condition": "Unknown",
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
@@ -4637,13 +4634,13 @@
       "sentiment": "Curious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Endocrinology",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
-      "urgency_level": "Low"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -4711,11 +4708,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"painful cramping\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"painful cramping\",\n    \"lower back pain\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "painful cramping"
+        "painful cramping",
+        "lower back pain",
+        "stomach pain"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -4737,13 +4736,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"sharp pain\",\n    \"cramping\",\n    \"discomfort\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"sharp pain in lower right side\",\n    \"cramping\",\n    \"wincing\",\n    \"walking weird\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
-        "sharp pain",
+        "sharp pain in lower right side",
         "cramping",
-        "discomfort"
+        "wincing",
+        "walking weird"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -4809,12 +4809,11 @@
       "sentiment": "Seeking guidance",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"pain in pelvic area\",\n    \"disturbance in daily routine\"\n  ],\n  \"condition\": \"Endometriosis\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"pain in pelvic area\"\n  ],\n  \"condition\": \"Endometriosis\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "pain in pelvic area",
-        "disturbance in daily routine"
+        "pain in pelvic area"
       ],
       "condition": "Endometriosis",
       "sentiment": "Concerned",
@@ -4832,12 +4831,10 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [\n    \"inability to see in dark\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Ophthalmology",
-      "symptoms": [
-        "inability to see in dark"
-      ],
+      "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
       "urgency_level": "Low"
@@ -5022,14 +5019,14 @@
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [\n    \"back pain\"\n  ],\n  \"condition\": \"Cervical stenosis\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [\n    \"up back pain\"\n  ],\n  \"condition\": \"Cervical stenosis\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Oncology",
       "symptoms": [
-        "back pain"
+        "up back pain"
       ],
       "condition": "Cervical stenosis",
-      "sentiment": "worried",
+      "sentiment": "Worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -5070,12 +5067,12 @@
       "sentiment": "Determined",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [],\n  \"condition\": \"ADHD\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [],\n  \"condition\": \"ADHD\",\n  \"sentiment\": \"Hopeful\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Psychiatry",
       "symptoms": [],
       "condition": "ADHD",
-      "sentiment": "Inquisitive",
+      "sentiment": "Hopeful",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -5093,11 +5090,11 @@
       "sentiment": "Uncertain",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"stinging inside head\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"stinging sensation in head\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
-        "stinging inside head"
+        "stinging sensation in head"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -5118,11 +5115,11 @@
       "sentiment": "frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"migraine\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"migraines\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
-        "migraine"
+        "migraines"
       ],
       "condition": "Unknown",
       "sentiment": "frustrated",
@@ -5140,11 +5137,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"Obesity, Smoking, Alcoholism\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"Smoking, Obesity, Alcoholism\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [],
-      "condition": "Obesity, Smoking, Alcoholism",
+      "condition": "Smoking, Obesity, Alcoholism",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -5163,12 +5160,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"severe pain in the pelvic area\",\n    \"difficulty moving\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"severe pain in the pelvic area\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "severe pain in the pelvic area",
-        "difficulty moving"
+        "severe pain in the pelvic area"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -5211,13 +5207,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"rash\",\n    \"swelling\",\n    \"fussing\",\n    \"scratching\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"rash\",\n    \"swelling\",\n    \"fussiness\",\n    \"scratching\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Pediatrics",
+      "department": "Dermatology",
       "symptoms": [
         "rash",
         "swelling",
-        "fussing",
+        "fussiness",
         "scratching"
       ],
       "condition": "Unknown",
@@ -5290,7 +5286,7 @@
       "sentiment": "anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"weird taste in mouth\",\n    \"forgetfulness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"weird taste in mouth\",\n    \"forgetfulness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
@@ -5299,7 +5295,7 @@
         "forgetfulness"
       ],
       "condition": "Unknown",
-      "sentiment": "uncertain",
+      "sentiment": "anxious",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -5317,14 +5313,14 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"painful sores\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"painful sores\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
         "painful sores"
       ],
       "condition": "Unknown",
-      "sentiment": "concerned",
+      "sentiment": "frustrated",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -5445,11 +5441,11 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"tingles\",\n    \"redness\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"tingling\",\n    \"redness\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "tingles",
+        "tingling",
         "redness",
         "pain"
       ],
@@ -5495,7 +5491,7 @@
       "sentiment": "Curious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"twitching\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"twitching\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
@@ -5503,7 +5499,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Curious",
-      "urgency_level": "Low"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -5544,14 +5540,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"green vomiting\",\n    \"yellow vomiting\"\n  ],\n  \"condition\": \"Flu\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"green and yellow vomiting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
-        "green vomiting",
-        "yellow vomiting"
+        "green and yellow vomiting"
       ],
-      "condition": "Flu",
+      "condition": "Unknown",
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
@@ -5587,13 +5582,13 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Genetics\",\n  \"symptoms\": [],\n  \"condition\": \"CVID, Parkinson's disease\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Genetics\",\n  \"symptoms\": [],\n  \"condition\": \"Cerebral Vasculopathy (CVN), Parkinson's Disease\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Genetics",
       "symptoms": [],
-      "condition": "CVID, Parkinson's disease",
-      "sentiment": "Inquisitive",
-      "urgency_level": "Low"
+      "condition": "Cerebral Vasculopathy (CVN), Parkinson's Disease",
+      "sentiment": "Concerned",
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -5653,9 +5648,9 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Psychology",
+      "department": "Psychiatry",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
@@ -5676,12 +5671,12 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"dull ache\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"dull ache radiating to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
-        "dull ache"
+        "dull ache radiating to left scapula"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -5829,11 +5824,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"High Cholesterol\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [],
-      "condition": "High Cholesterol",
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -5916,9 +5911,9 @@
       "sentiment": "concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"severe lower abdominal pain\",\n    \"pelvic pain\"\n  ],\n  \"condition\": \"Chlamydia, Gonorrhea\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [\n    \"severe lower abdominal pain\",\n    \"pelvic pain\"\n  ],\n  \"condition\": \"Chlamydia, Gonorrhea\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
-      "department": "Urology",
+      "department": "Infectious Disease",
       "symptoms": [
         "severe lower abdominal pain",
         "pelvic pain"
@@ -6065,15 +6060,15 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"breast soreness\",\n    \"small lump in the breast\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"breast soreness\",\n    \"lump in the breast\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
         "breast soreness",
-        "small lump in the breast"
+        "lump in the breast"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -6094,12 +6089,12 @@
       "sentiment": "Scared",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"left sided chest tightness\",\n    \"pressure\",\n    \"pain\",\n    \"shortness of breath\",\n    \"discomfort over left shoulder\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"scared\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"left sided chest tightness\",\n    \"pressure in chest\",\n    \"pain\",\n    \"shortness of breath\",\n    \"discomfort over left shoulder\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"scared\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "left sided chest tightness",
-        "pressure",
+        "pressure in chest",
         "pain",
         "shortness of breath",
         "discomfort over left shoulder"
@@ -6163,14 +6158,14 @@
       "sentiment": "unsure",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"nausea\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"nausea\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness",
         "nausea"
       ],
-      "condition": "Unknown",
+      "condition": "Hypertension",
       "sentiment": "uncertain",
       "urgency_level": "Medium"
     },
@@ -6236,12 +6231,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Urology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Neutral",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -6258,7 +6253,7 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"fast heartbeat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"fast heartbeat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -6266,7 +6261,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
-      "urgency_level": "Low"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -6282,11 +6277,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"burning sensation in throat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"burning sensation of throat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Otolaryngology",
       "symptoms": [
-        "burning sensation in throat"
+        "burning sensation of throat"
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
@@ -6308,11 +6303,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"periodic numbness in left arm\",\n    \"short chest pains\",\n    \"gasping for air\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"numbness in left arm\",\n    \"short chest pains\",\n    \"gasping for air\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
-        "periodic numbness in left arm",
+        "numbness in left arm",
         "short chest pains",
         "gasping for air"
       ],
@@ -6380,7 +6375,7 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"cough\",\n    \"tummy pain\",\n    \"stuffy nose\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"cough\",\n    \"tummy pain\",\n    \"stuffy nose\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
@@ -6389,7 +6384,7 @@
         "stuffy nose"
       ],
       "condition": "Unknown",
-      "sentiment": "Worried",
+      "sentiment": "worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -6407,7 +6402,7 @@
       "sentiment": "anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"funny feeling in head\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"funny feeling in head\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -6415,7 +6410,7 @@
         "funny feeling in head"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -6433,9 +6428,9 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"red swollen spot\",\n    \"warmth\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"red swollen spot\",\n    \"warmth\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Dermatology",
+      "department": "Pediatrics",
       "symptoms": [
         "red swollen spot",
         "warmth"
@@ -6460,13 +6455,13 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"fussiness\",\n    \"poor appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"fussiness\",\n    \"loss of appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "stomach pain",
         "fussiness",
-        "poor appetite"
+        "loss of appetite"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -6544,7 +6539,7 @@
       "sentiment": "Concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [\n    \"redness\",\n    \"swelling\",\n    \"pain\",\n    \"sleepiness\",\n    \"nausea\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [\n    \"redness\",\n    \"swelling\",\n    \"pain\",\n    \"sleepiness\",\n    \"nausea\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Infectious Disease",
       "symptoms": [
@@ -6555,7 +6550,7 @@
         "nausea"
       ],
       "condition": "Diabetes",
-      "sentiment": "concerned",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -6572,11 +6567,11 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [\n    \"burning in back\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"burning sensation in back\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Pharmacy",
+      "department": "Urology",
       "symptoms": [
-        "burning in back"
+        "burning sensation in back"
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
@@ -6811,12 +6806,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -6903,14 +6898,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "cough"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -7059,11 +7054,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"HPV\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Human Papillomavirus (HPV)\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Infectious Disease",
       "symptoms": [],
-      "condition": "HPV",
+      "condition": "Human Papillomavirus (HPV)",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -7082,7 +7077,7 @@
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -7090,7 +7085,7 @@
         "radiating pain to left scapula"
       ],
       "condition": "Unknown",
-      "sentiment": "worried",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -7110,7 +7105,7 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"nausea\",\n    \"tiredness\",\n    \"constipation\",\n    \"breast pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"nausea\",\n    \"tiredness\",\n    \"constipation\",\n    \"breast pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [
@@ -7120,7 +7115,7 @@
         "breast pain"
       ],
       "condition": "Unknown",
-      "sentiment": "Anxious",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -7234,12 +7229,12 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"upper left sharp pain\",\n    \"radiating pain\",\n    \"vomiting\",\n    \"paleness\",\n    \"weakness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"upper left sharp pain\",\n    \"radiating pain to back\",\n    \"vomiting\",\n    \"paleness\",\n    \"weakness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "upper left sharp pain",
-        "radiating pain",
+        "radiating pain to back",
         "vomiting",
         "paleness",
         "weakness"
@@ -7329,12 +7324,12 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"weird sensation in head\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"weird feeling in head\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness",
-        "weird sensation in head"
+        "weird feeling in head"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -7434,15 +7429,15 @@
       "sentiment": "Curious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [\n    \"swelling of lymph nodes\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [\n    \"swelling of lymph nodes\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Oncology",
       "symptoms": [
         "swelling of lymph nodes"
       ],
       "condition": "Unknown",
-      "sentiment": "Curious",
-      "urgency_level": "Low"
+      "sentiment": "Inquisitive",
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -7459,12 +7454,12 @@
       "sentiment": "Unsure",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"bloating\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"bloat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"uncertain\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "dizziness",
-        "bloating"
+        "bloat"
       ],
       "condition": "Unknown",
       "sentiment": "uncertain",
@@ -7538,11 +7533,11 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"fluttering sensation in chest\",\n    \"radiating pain to left scapula\",\n    \"fatigue\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"chest flutter\",\n    \"radiating pain to left scapula\",\n    \"fatigue\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
-        "fluttering sensation in chest",
+        "chest flutter",
         "radiating pain to left scapula",
         "fatigue",
         "dizziness"
@@ -7659,7 +7654,7 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"low back pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"low back pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [
@@ -7667,7 +7662,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
-      "urgency_level": "Medium"
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -7735,12 +7730,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Oncology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -7757,14 +7752,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"severe pain in pelvic area\"\n  ],\n  \"condition\": \"Endometriosis\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"severe pain in pelvic area\"\n  ],\n  \"condition\": \"Endometriosis\",\n  \"sentiment\": \"Confused\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
         "severe pain in pelvic area"
       ],
       "condition": "Endometriosis",
-      "sentiment": "Concerned",
+      "sentiment": "Confused",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -7956,7 +7951,7 @@
       "sentiment": "worried",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Geriatrics\",\n  \"symptoms\": [\n    \"stomach discomfort\",\n    \"fatigue\",\n    \"paleness\",\n    \"coughing\",\n    \"pain in kidney area\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Geriatrics\",\n  \"symptoms\": [\n    \"stomach discomfort\",\n    \"fatigue\",\n    \"paleness\",\n    \"coughing\",\n    \"kidney pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Geriatrics",
       "symptoms": [
@@ -7964,7 +7959,7 @@
         "fatigue",
         "paleness",
         "coughing",
-        "pain in kidney area"
+        "kidney pain"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -7986,13 +7981,13 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"forgetfulness\",\n    \"confusion\",\n    \"word-finding difficulties\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"forgetfulness\",\n    \"confusion\",\n    \"difficulty with speech\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
         "forgetfulness",
         "confusion",
-        "word-finding difficulties"
+        "difficulty with speech"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -8013,7 +8008,7 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"off-balance\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"off-balance\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
@@ -8021,7 +8016,7 @@
         "off-balance"
       ],
       "condition": "Unknown",
-      "sentiment": "concerned",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -8288,15 +8283,15 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [\n    \"shakiness\",\n    \"funny feeling in head\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [\n    \"shakiness\",\n    \"head feeling funny\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Endocrinology",
       "symptoms": [
         "shakiness",
-        "funny feeling in head"
+        "head feeling funny"
       ],
       "condition": "Diabetes",
-      "sentiment": "concerned",
+      "sentiment": "worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -8357,9 +8352,9 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [],\n  \"condition\": \"Tuberculosis\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Tuberculosis\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Pulmonology",
+      "department": "Infectious Disease",
       "symptoms": [],
       "condition": "Tuberculosis",
       "sentiment": "Concerned",
@@ -8377,12 +8372,12 @@
       "sentiment": "Curious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Pelvic Inflammatory Disease (PID), Chlamydia\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Pelvic Inflammatory Disease (PID)\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Gynecology",
+      "department": "Infectious Disease",
       "symptoms": [],
-      "condition": "Pelvic Inflammatory Disease (PID), Chlamydia",
-      "sentiment": "Inquisitive",
+      "condition": "Pelvic Inflammatory Disease (PID)",
+      "sentiment": "Curious",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -8447,15 +8442,15 @@
       "sentiment": "curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Surgery\",\n  \"symptoms\": [\n    \"hardness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Surgery\",\n  \"symptoms\": [\n    \"hardness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Surgery",
       "symptoms": [
         "hardness"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "sentiment": "Inquisitive",
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -8571,12 +8566,12 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"tinnitus\",\n    \"squealing\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"tinnitus\",\n    \"squealing noise\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Otolaryngology",
       "symptoms": [
         "tinnitus",
-        "squealing"
+        "squealing noise"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -8599,11 +8594,11 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying at night\",\n    \"fussiness\",\n    \"low-grade fever\",\n    \"red ear\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"waking up crying at night\",\n    \"fussiness\",\n    \"low-grade fever\",\n    \"red ear\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
-        "crying at night",
+        "waking up crying at night",
         "fussiness",
         "low-grade fever",
         "red ear"
@@ -8627,12 +8622,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"bump\",\n    \"firmness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"bump\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
-        "bump",
-        "firmness"
+        "bump"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -8831,9 +8825,9 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"purplish discoloration\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"purplish discoloration\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Dermatology",
+      "department": "Emergency Medicine",
       "symptoms": [
         "purplish discoloration"
       ],
@@ -8876,16 +8870,15 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"missed period\",\n    \"spotting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"spotting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "missed period",
         "spotting"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -8925,12 +8918,12 @@
       "sentiment": "Curious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics/Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Gynecology",
+      "department": "Obstetrics/Gynecology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -8977,12 +8970,12 @@
       "sentiment": "Uncertain",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"bump on neck\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"bump on neck\",\n    \"firmness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
         "bump on neck",
-        "pain"
+        "firmness"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -9003,12 +8996,13 @@
       "sentiment": "Anxious",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"chest pain\",\n    \"shortness of breath\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"chest pain\",\n    \"shortness of breath\",\n    \"increased heart rate\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Emergency Medicine",
       "symptoms": [
         "chest pain",
-        "shortness of breath"
+        "shortness of breath",
+        "increased heart rate"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -9162,15 +9156,15 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
-        "radiating pain to left scapula"
+        "radiating pain"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -9328,7 +9322,7 @@
       "sentiment": "curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"weird taste in mouth\",\n    \"metallic taste\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"weird taste in mouth\",\n    \"metallic taste\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
@@ -9337,7 +9331,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Curious",
-      "urgency_level": "Low"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -9666,11 +9660,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"random muscle twitches\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"muscle twitches\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
-        "random muscle twitches"
+        "muscle twitches"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -9721,7 +9715,7 @@
       "sentiment": "confused",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"Confused\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"confused\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
@@ -9729,7 +9723,7 @@
         "fatigue"
       ],
       "condition": "Diabetes",
-      "sentiment": "Confused",
+      "sentiment": "confused",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -9791,11 +9785,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"pain\",\n    \"stomach discomfort\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"pain in the area between legs\",\n    \"stomach discomfort\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Gynecology",
+      "department": "Gastroenterology",
       "symptoms": [
-        "pain",
+        "pain in the area between legs",
         "stomach discomfort"
       ],
       "condition": "Unknown",
@@ -9818,11 +9812,11 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"paleness\",\n    \"loss of appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"paleness\",\n    \"loss of appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
-        "tummy pain",
+        "stomach pain",
         "paleness",
         "loss of appetite"
       ],
@@ -9870,12 +9864,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Pharmacy",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Neutral",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -9915,15 +9909,16 @@
       "sentiment": "Frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"back pain\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"back pain\",\n    \"sharp pain\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [
         "back pain",
+        "sharp pain",
         "dizziness"
       ],
       "condition": "Unknown",
-      "sentiment": "anxious",
+      "sentiment": "frustrated",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -10112,14 +10107,14 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Diabetes\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "stomach pain",
         "fatigue"
       ],
-      "condition": "Unknown",
+      "condition": "Diabetes",
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
@@ -10309,12 +10304,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Obstetrics and Gynecology",
+      "department": "Gynecology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Neutral",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -10329,12 +10324,12 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -10373,14 +10368,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"weakness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"weakness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness",
         "weakness"
       ],
-      "condition": "Hypertension",
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -10426,12 +10421,12 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"dull ache\",\n    \"discomfort\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"dull ache\",\n    \"abdominal discomfort\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "dull ache",
-        "discomfort"
+        "abdominal discomfort"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -10471,13 +10466,13 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [],\n  \"condition\": \"Chronic Hyperventilation Syndrome\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [],\n  \"condition\": \"Chronic Hyperventilation Syndrome\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Pulmonology",
       "symptoms": [],
       "condition": "Chronic Hyperventilation Syndrome",
       "sentiment": "Inquisitive",
-      "urgency_level": "Medium"
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -10543,9 +10538,9 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Chronic Hepatitis C\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [],\n  \"condition\": \"Chronic Hepatitis C\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Infectious Disease",
+      "department": "Gastroenterology",
       "symptoms": [],
       "condition": "Chronic Hepatitis C",
       "sentiment": "Concerned",
@@ -10705,9 +10700,9 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Neurology",
+      "department": "Cardiology",
       "symptoms": [
         "dizziness"
       ],
@@ -10727,16 +10722,15 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"cold sore\",\n    \"peeling\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"cold sore\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
-        "cold sore",
-        "peeling"
+        "cold sore"
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
-      "urgency_level": "Medium"
+      "urgency_level": "Low"
     },
     "valid_json": true
   },
@@ -10822,12 +10816,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Ophthalmology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Neutral",
+      "sentiment": "Curious",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -11030,14 +11024,14 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Internal Medicine\",\n  \"symptoms\": [\n    \"tiredness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Internal Medicine\",\n  \"symptoms\": [\n    \"tiredness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Internal Medicine",
       "symptoms": [
         "tiredness"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -11057,13 +11051,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"fever\",\n    \"fatigue\",\n    \"loss of appetite\",\n    \"ear pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"fever\",\n    \"tiredness\",\n    \"poor appetite\",\n    \"ear pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "fever",
-        "fatigue",
-        "loss of appetite",
+        "tiredness",
+        "poor appetite",
         "ear pain"
       ],
       "condition": "Unknown",
@@ -11151,7 +11145,7 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"bump\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"bump\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
@@ -11159,7 +11153,7 @@
         "pain"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -11275,14 +11269,14 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "cough"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -11321,12 +11315,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Herpes\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [],\n  \"condition\": \"Herpes\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Infectious Disease",
+      "department": "Dermatology",
       "symptoms": [],
       "condition": "Herpes",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -11363,11 +11357,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"red bumps\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"red bumps on the skin\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
-        "red bumps"
+        "red bumps on the skin"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -11657,12 +11651,12 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"soreness in sides of neck\",\n    \"tight jaw\",\n    \"knot in back of neck\"\n  ],\n  \"condition\": \"Sleep Apnea\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"soreness in neck\",\n    \"tight jaw\",\n    \"knot in back of neck\"\n  ],\n  \"condition\": \"Sleep Apnea\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Ophthalmology",
       "symptoms": [
         "dizziness",
-        "soreness in sides of neck",
+        "soreness in neck",
         "tight jaw",
         "knot in back of neck"
       ],
@@ -11682,12 +11676,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Hematology\",\n  \"symptoms\": [],\n  \"condition\": \"ANLL\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [],\n  \"condition\": \"ANLL (Acute Necrosis Leukemia)\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Hematology",
+      "department": "Oncology",
       "symptoms": [],
-      "condition": "ANLL",
-      "sentiment": "Curious",
+      "condition": "ANLL (Acute Necrosis Leukemia)",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -11702,11 +11696,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [],\n  \"condition\": \"Suprapatellar Bursitis\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [],\n  \"condition\": \"suprapatellar bursitis\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [],
-      "condition": "Suprapatellar Bursitis",
+      "condition": "suprapatellar bursitis",
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
@@ -11839,13 +11833,13 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"pain in the lower left side of abdomen\"\n  ],\n  \"condition\": \"Ovarian cyst\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"pain in lower left abdomen\"\n  ],\n  \"condition\": \"Ovarian Cyst\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "pain in the lower left side of abdomen"
+        "pain in lower left abdomen"
       ],
-      "condition": "Ovarian cyst",
+      "condition": "Ovarian Cyst",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -11861,12 +11855,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Nutrition\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Nutrition\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Nutrition",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -11911,11 +11905,11 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"thirst\",\n    \"frequent urination\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"excessive thirst\",\n    \"frequent urination\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Urology",
       "symptoms": [
-        "thirst",
+        "excessive thirst",
         "frequent urination"
       ],
       "condition": "Unknown",
@@ -11934,11 +11928,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Herpes\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Infectious Disease",
       "symptoms": [],
-      "condition": "Herpes",
+      "condition": "Unknown",
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
@@ -12071,13 +12065,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"fluttering sensation\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"fluttering sensation\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
-        "fluttering sensation",
-        "radiating pain to left scapula"
+        "fluttering sensation"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -12097,14 +12090,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"midcycle bleed\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"midcycle bleed\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
         "midcycle bleed"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -12148,13 +12141,15 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"muscle weakness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
-      "symptoms": [],
+      "symptoms": [
+        "muscle weakness"
+      ],
       "condition": "Unknown",
-      "sentiment": "Curious",
-      "urgency_level": "Low"
+      "sentiment": "Inquisitive",
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -12194,14 +12189,14 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness"
       ],
       "condition": "Unknown",
-      "sentiment": "concerned",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -12242,9 +12237,9 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"bleeding\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics and Gynecology\",\n  \"symptoms\": [\n    \"bleeding\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Gynecology",
+      "department": "Obstetrics and Gynecology",
       "symptoms": [
         "bleeding"
       ],
@@ -12284,11 +12279,11 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [],\n  \"condition\": \"H.Pylori infection\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [],\n  \"condition\": \"H.Pylori\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [],
-      "condition": "H.Pylori infection",
+      "condition": "H.Pylori",
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
@@ -12419,14 +12414,15 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Vascular Surgery\",\n  \"symptoms\": [\n    \"numbness\",\n    \"weakness\",\n    \"tingling sensation\",\n    \"pain in legs and feet\"\n  ],\n  \"condition\": \"Peripheral Artery Disease\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Vascular Surgery\",\n  \"symptoms\": [\n    \"numbness\",\n    \"weakness\",\n    \"tingling sensation\",\n    \"pain in legs\",\n    \"throbbing\"\n  ],\n  \"condition\": \"Peripheral Artery Disease\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Vascular Surgery",
       "symptoms": [
         "numbness",
         "weakness",
         "tingling sensation",
-        "pain in legs and feet"
+        "pain in legs",
+        "throbbing"
       ],
       "condition": "Peripheral Artery Disease",
       "sentiment": "Concerned",
@@ -12522,9 +12518,9 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Oncology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Breast Surgery\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Oncology",
+      "department": "Breast Surgery",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -12544,15 +12540,15 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"stubbed finger\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [\n    \"stubbed finger\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Orthopedics",
+      "department": "Emergency Medicine",
       "symptoms": [
         "stubbed finger"
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
-      "urgency_level": "Low"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -12614,12 +12610,12 @@
       "sentiment": "Neutral",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Dentistry\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dentistry\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Dentistry",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Neutral",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -12852,9 +12848,9 @@
       "sentiment": "Frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"burning sensation of the throat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Seeking help\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"burning sensation of the throat\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Seeking help\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Gastroenterology",
+      "department": "Otolaryngology",
       "symptoms": [
         "burning sensation of the throat"
       ],
@@ -12922,12 +12918,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Uncertain\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Infectious Disease",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Uncertain",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -12966,13 +12962,13 @@
       "sentiment": "worried",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying\",\n    \"abdominal swelling\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying\",\n    \"swollen belly\",\n    \"abdominal pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "crying",
-        "abdominal swelling",
-        "stomach pain"
+        "swollen belly",
+        "abdominal pain"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -12993,12 +12989,12 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"moderate to severe abdominal pain\",\n    \"cramping pain while passing stools\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"moderate to severe abdominal pain\",\n    \"cramping during bowel movements\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "moderate to severe abdominal pain",
-        "cramping pain while passing stools"
+        "cramping during bowel movements"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -13167,13 +13163,13 @@
       "sentiment": "Concerns",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"black and sticky menstrual fluid\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"black and sticky menstrual discharge\"\n  ],\n  \"condition\": \"Irregular menses\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
-        "black and sticky menstrual fluid"
+        "black and sticky menstrual discharge"
       ],
-      "condition": "Unknown",
+      "condition": "Irregular menses",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -13524,12 +13520,12 @@
       "sentiment": "anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"racing thoughts\",\n    \"dream-like state\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"random thoughts\",\n    \"racing mind\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Psychiatry",
       "symptoms": [
-        "racing thoughts",
-        "dream-like state"
+        "random thoughts",
+        "racing mind"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -13615,14 +13611,14 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"numbness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"numbness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
         "numbness"
       ],
       "condition": "Unknown",
-      "sentiment": "worried",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -13707,9 +13703,9 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Hematology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Pharmacy",
+      "department": "Hematology",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
@@ -13756,7 +13752,7 @@
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"sore throat\",\n    \"mild fever\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"sore throat\",\n    \"mild fever\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
@@ -13764,7 +13760,7 @@
         "mild fever"
       ],
       "condition": "Unknown",
-      "sentiment": "worried",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -13857,11 +13853,11 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Geriatrics\",\n  \"symptoms\": [\n    \"balance issues\",\n    \"dizziness\",\n    \"forgetfulness\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Geriatrics\",\n  \"symptoms\": [\n    \"balance trouble\",\n    \"dizziness\",\n    \"forgetfulness\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Geriatrics",
       "symptoms": [
-        "balance issues",
+        "balance trouble",
         "dizziness",
         "forgetfulness",
         "fatigue"
@@ -13950,13 +13946,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"bleeding\"\n  ],\n  \"condition\": \"Anal Fissure\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"bleeding\"\n  ],\n  \"condition\": \"Anal fissure\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "bleeding"
       ],
-      "condition": "Anal Fissure",
+      "condition": "Anal fissure",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -14030,7 +14026,7 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"feeling of something stuck in throat\",\n    \"dizziness\",\n    \"anxiety\",\n    \"stress\",\n    \"heaviness\"\n  ],\n  \"condition\": \"Anxiety\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Psychiatry\",\n  \"symptoms\": [\n    \"feeling of something stuck in throat\",\n    \"dizziness\",\n    \"anxiety\",\n    \"stress\",\n    \"heaviness\"\n  ],\n  \"condition\": \"Anxiety\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Psychiatry",
       "symptoms": [
@@ -14041,7 +14037,7 @@
         "heaviness"
       ],
       "condition": "Anxiety",
-      "sentiment": "Concerned",
+      "sentiment": "anxious",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -14079,14 +14075,11 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"digestion\",\n    \"drooling\"\n  ],\n  \"condition\": \"Orchitis\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Urology",
-      "symptoms": [
-        "digestion",
-        "drooling"
-      ],
-      "condition": "Orchitis",
+      "symptoms": [],
+      "condition": "Unknown",
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
@@ -14105,14 +14098,14 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"weird rash\"\n  ],\n  \"condition\": \"Ear Infection\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"rash\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "tummy pain",
-        "weird rash"
+        "rash"
       ],
-      "condition": "Ear Infection",
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -14133,14 +14126,14 @@
       "sentiment": "worried",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"fever\",\n    \"fatigue\",\n    \"poor appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"vomiting\",\n    \"fever\",\n    \"fatigue\",\n    \"loss of appetite\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "vomiting",
         "fever",
         "fatigue",
-        "poor appetite"
+        "loss of appetite"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -14329,16 +14322,16 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
-        "radiating pain"
+        "radiating pain to left scapula"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -14383,16 +14376,16 @@
       "sentiment": "frustrated",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Radiology\",\n  \"symptoms\": [\n    \"pelvic pain\",\n    \"back aches\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Radiology\",\n  \"symptoms\": [\n    \"very bad pelvic pain\",\n    \"back aches\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Frustrated\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Radiology",
       "symptoms": [
-        "pelvic pain",
+        "very bad pelvic pain",
         "back aches"
       ],
       "condition": "Unknown",
       "sentiment": "Frustrated",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -14519,14 +14512,14 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"persistent cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"persistent cough\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "persistent cough"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -14569,13 +14562,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"metallic taste\"\n  ],\n  \"condition\": \"Ear Infection\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"metallic taste\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "metallic taste"
       ],
-      "condition": "Ear Infection",
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -14637,11 +14630,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"clicking sound in the knee\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"constant clicking sound in the knee\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [
-        "clicking sound in the knee"
+        "constant clicking sound in the knee"
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
@@ -14662,12 +14655,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"itching\",\n    \"pimples\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"itching pimples\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
-        "itching",
-        "pimples"
+        "itching pimples"
       ],
       "condition": "Unknown",
       "sentiment": "Inquisitive",
@@ -14756,7 +14748,7 @@
       "sentiment": "anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -14764,7 +14756,7 @@
         "dizziness"
       ],
       "condition": "Hypertension",
-      "sentiment": "worried",
+      "sentiment": "anxious",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -14781,14 +14773,14 @@
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -14882,14 +14874,14 @@
       "sentiment": "Frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"crying\",\n    \"pickiness\",\n    \"tiredness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"tummy pain\",\n    \"crying at night\",\n    \"pickiness about eating\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
         "tummy pain",
-        "crying",
-        "pickiness",
-        "tiredness"
+        "crying at night",
+        "pickiness about eating",
+        "fatigue"
       ],
       "condition": "Unknown",
       "sentiment": "Frustrated",
@@ -15045,11 +15037,11 @@
       "sentiment": "concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"headaches\",\n    \"tiredness\",\n    \"fainting\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"headache\",\n    \"tiredness\",\n    \"fainting\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [
-        "headaches",
+        "headache",
         "tiredness",
         "fainting"
       ],
@@ -15074,13 +15066,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [\n    \"chest pain\",\n    \"coughing\",\n    \"sneezing\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pulmonology\",\n  \"symptoms\": [\n    \"chest pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pulmonology",
       "symptoms": [
-        "chest pain",
-        "coughing",
-        "sneezing"
+        "chest pain"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -15120,7 +15110,7 @@
       "sentiment": "Unsure",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"spotting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [\n    \"spotting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [
@@ -15128,7 +15118,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Unsure",
-      "urgency_level": "Low"
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -15217,14 +15207,14 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"discomfort\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"stomach pain\",\n    \"discomfort\"\n  ],\n  \"condition\": \"Hypertension, Hyperlipidemia\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
         "stomach pain",
         "discomfort"
       ],
-      "condition": "Hypertension",
+      "condition": "Hypertension, Hyperlipidemia",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -15386,7 +15376,7 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"dull ache\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"dull ache\",\n    \"dizziness\"\n  ],\n  \"condition\": \"Borderline Elevated LDL\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -15394,7 +15384,7 @@
         "dull ache",
         "dizziness"
       ],
-      "condition": "Unknown",
+      "condition": "Borderline Elevated LDL",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -15414,7 +15404,7 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"lightheadedness\",\n    \"slurred speech\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"lightheadedness\",\n    \"slurred speech\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
@@ -15423,7 +15413,7 @@
         "fatigue"
       ],
       "condition": "Unknown",
-      "sentiment": "Inquisitive",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -15441,12 +15431,12 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Internal Medicine\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"ache in side\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"tiredness\",\n    \"pain in side\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Internal Medicine",
+      "department": "Gastroenterology",
       "symptoms": [
         "tiredness",
-        "ache in side"
+        "pain in side"
       ],
       "condition": "Unknown",
       "sentiment": "worried",
@@ -15518,11 +15508,11 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [],\n  \"condition\": \"CVID, Parkinson's disease\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [],\n  \"condition\": \"Cerebral Vasculopathy (CVID), Parkinson's Disease\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [],
-      "condition": "CVID, Parkinson's disease",
+      "condition": "Cerebral Vasculopathy (CVID), Parkinson's Disease",
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
@@ -15700,7 +15690,7 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"abdominal pain\",\n    \"nausea\"\n  ],\n  \"condition\": \"Preeclampsia\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"abdominal pain\",\n    \"nausea\"\n  ],\n  \"condition\": \"Preeclampsia\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [
@@ -15708,7 +15698,7 @@
         "nausea"
       ],
       "condition": "Preeclampsia",
-      "sentiment": "Worried",
+      "sentiment": "worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -15723,12 +15713,12 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -15746,7 +15736,7 @@
       "sentiment": "Anxious",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"abdominal pain\",\n    \"watery stools\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"abdominal pain\",\n    \"watery stools\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
@@ -15754,7 +15744,7 @@
         "watery stools"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -16031,13 +16021,13 @@
       "sentiment": "Desperate",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Desperate\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Anxious",
-      "urgency_level": "Medium"
+      "sentiment": "Desperate",
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -16098,11 +16088,11 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gynecology\",\n  \"symptoms\": [],\n  \"condition\": \"Menopause\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gynecology",
       "symptoms": [],
-      "condition": "Unknown",
+      "condition": "Menopause",
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
@@ -16143,13 +16133,14 @@
       "sentiment": "overwhelmed",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"fluttering sensation\",\n    \"skipped beats\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Overwhelmed\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"palpitations\",\n    \"fluttering sensation\",\n    \"skipped beats\",\n    \"radiating pain to left scapula\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Overwhelmed\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "palpitations",
         "fluttering sensation",
-        "skipped beats"
+        "skipped beats",
+        "radiating pain to left scapula"
       ],
       "condition": "Hypertension",
       "sentiment": "Overwhelmed",
@@ -16246,13 +16237,13 @@
       "sentiment": "concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"shakiness\",\n    \"heaviness in chest\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"shakiness\",\n    \"chest heaviness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness",
         "shakiness",
-        "heaviness in chest"
+        "chest heaviness"
       ],
       "condition": "Hypertension",
       "sentiment": "Concerned",
@@ -16345,13 +16336,12 @@
       "sentiment": "nervous",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"missed period\",\n    \"spotting\",\n    \"signs of pregnancy\",\n    \"nervousness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [\n    \"missed period\",\n    \"spotting\",\n    \"nervousness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"anxious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [
         "missed period",
         "spotting",
-        "signs of pregnancy",
         "nervousness"
       ],
       "condition": "Unknown",
@@ -16396,14 +16386,14 @@
       "sentiment": "frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dentistry\",\n  \"symptoms\": [\n    \"pain\"\n  ],\n  \"condition\": \"TMJ\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dentistry\",\n  \"symptoms\": [\n    \"severe pain\"\n  ],\n  \"condition\": \"TMJ\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dentistry",
       "symptoms": [
-        "pain"
+        "severe pain"
       ],
       "condition": "TMJ",
-      "sentiment": "Concerned",
+      "sentiment": "frustrated",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -16421,11 +16411,12 @@
       "sentiment": "Frustrated",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"back pain\",\n    \"difficulty sleeping\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"back pain\",\n    \"dull ache\",\n    \"difficulty sleeping\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [
         "back pain",
+        "dull ache",
         "difficulty sleeping"
       ],
       "condition": "Unknown",
@@ -16473,7 +16464,7 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Unsure\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying\",\n    \"stomach pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
@@ -16481,7 +16472,7 @@
         "stomach pain"
       ],
       "condition": "Unknown",
-      "sentiment": "Unsure",
+      "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -16614,11 +16605,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Wound Care\",\n  \"symptoms\": [],\n  \"condition\": \"Bed Sore\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Wound Care\",\n  \"symptoms\": [\n    \"bed sore\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Wound Care",
-      "symptoms": [],
-      "condition": "Bed Sore",
+      "symptoms": [
+        "bed sore"
+      ],
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -16636,14 +16629,14 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"swelling in ankles\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"swelling in ankles\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "swelling in ankles"
       ],
       "condition": "Hypertension",
-      "sentiment": "worried",
+      "sentiment": "concerned",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -16660,13 +16653,13 @@
       "sentiment": "Seeking help",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"chicken pox rash\"\n  ],\n  \"condition\": \"Chickenpox\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Dermatology\",\n  \"symptoms\": [\n    \"chicken pox\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Dermatology",
       "symptoms": [
-        "chicken pox rash"
+        "chicken pox"
       ],
-      "condition": "Chickenpox",
+      "condition": "Unknown",
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
@@ -16821,7 +16814,7 @@
       "sentiment": "Concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"chest pain\",\n    \"cough\",\n    \"bloodshot eyes\",\n    \"irritation\",\n    \"swelling\",\n    \"nausea\",\n    \"headache\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"chest pain\",\n    \"cough\",\n    \"bloodshot eyes\",\n    \"irritation\",\n    \"swelling\",\n    \"nausea\",\n    \"headache\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
@@ -16836,7 +16829,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -16850,9 +16843,9 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Surgery\",\n  \"symptoms\": [],\n  \"condition\": \"Infection\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [],\n  \"condition\": \"Infection\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Surgery",
+      "department": "Gastroenterology",
       "symptoms": [],
       "condition": "Infection",
       "sentiment": "Concerned",
@@ -16873,7 +16866,7 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying at night\",\n    \"trouble breathing\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying at night\",\n    \"trouble breathing\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
@@ -16882,7 +16875,7 @@
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -16920,11 +16913,11 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [],\n  \"condition\": \"Brain Tumor\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [],\n  \"condition\": \"Brain Tumor, Impaired cognition\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [],
-      "condition": "Brain Tumor",
+      "condition": "Brain Tumor, Impaired cognition",
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
@@ -17126,14 +17119,15 @@
       "sentiment": "worried",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"ear pain\",\n    \"yellowish fluid\",\n    \"blood coming out\",\n    \"crying\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Otolaryngology\",\n  \"symptoms\": [\n    \"ear pain\",\n    \"yellowish fluid\",\n    \"blood coming from ear\",\n    \"crying\",\n    \"pulling at ear\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Pediatrics",
+      "department": "Otolaryngology",
       "symptoms": [
         "ear pain",
         "yellowish fluid",
-        "blood coming out",
-        "crying"
+        "blood coming from ear",
+        "crying",
+        "pulling at ear"
       ],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -17211,18 +17205,18 @@
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"crying\",\n    \"restlessness\",\n    \"trouble breathing\",\n    \"wheezing\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"restlessness\",\n    \"trouble breathing\",\n    \"wheezing\",\n    \"cough\",\n    \"fatigue\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Pediatrics",
       "symptoms": [
-        "crying",
         "restlessness",
         "trouble breathing",
         "wheezing",
+        "cough",
         "fatigue"
       ],
       "condition": "Unknown",
-      "sentiment": "Concerned",
+      "sentiment": "worried",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -17237,12 +17231,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pharmacy\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Pharmacy",
       "symptoms": [],
       "condition": "Unknown",
-      "sentiment": "Curious",
+      "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -17257,12 +17251,12 @@
       "sentiment": "Curious",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Diphtheria\",\n  \"sentiment\": \"Neutral\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Infectious Disease\",\n  \"symptoms\": [],\n  \"condition\": \"Diphtheria\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
       "department": "Infectious Disease",
       "symptoms": [],
       "condition": "Diphtheria",
-      "sentiment": "Neutral",
+      "sentiment": "Curious",
       "urgency_level": "Low"
     },
     "valid_json": true
@@ -17369,13 +17363,13 @@
       "sentiment": "Concern",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"General Practice\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
-      "department": "General Practice",
+      "department": "Emergency Medicine",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Concerned",
-      "urgency_level": "Medium"
+      "urgency_level": "High"
     },
     "valid_json": true
   },
@@ -17391,13 +17385,13 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness"
       ],
-      "condition": "Hypertension",
+      "condition": "Unknown",
       "sentiment": "concerned",
       "urgency_level": "Medium"
     },
@@ -17436,9 +17430,9 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [],\n  \"condition\": \"Flat feet\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Podiatry\",\n  \"symptoms\": [],\n  \"condition\": \"Flat feet\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Orthopedics",
+      "department": "Podiatry",
       "symptoms": [],
       "condition": "Flat feet",
       "sentiment": "Inquisitive",
@@ -17456,11 +17450,11 @@
       "sentiment": "Concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Heroin Overdose\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
       "department": "Emergency Medicine",
       "symptoms": [],
-      "condition": "Heroin Overdose",
+      "condition": "Unknown",
       "sentiment": "Concerned",
       "urgency_level": "High"
     },
@@ -17478,15 +17472,15 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"low back pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Orthopedics\",\n  \"symptoms\": [\n    \"low back pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Inquisitive\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Orthopedics",
       "symptoms": [
         "low back pain"
       ],
       "condition": "Unknown",
-      "sentiment": "Curious",
-      "urgency_level": "Low"
+      "sentiment": "Inquisitive",
+      "urgency_level": "Medium"
     },
     "valid_json": true
   },
@@ -17524,9 +17518,9 @@
       "sentiment": "Concerned",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Endocrinology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
-      "department": "Endocrinology",
+      "department": "Gastroenterology",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Concerned",
@@ -17567,7 +17561,7 @@
       "sentiment": "Concerned",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [\n    \"eyes crusted shut\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Ophthalmology\",\n  \"symptoms\": [\n    \"eyes crusted shut\",\n    \"pain\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Ophthalmology",
       "symptoms": [
@@ -17575,7 +17569,7 @@
         "pain"
       ],
       "condition": "Unknown",
-      "sentiment": "concerned",
+      "sentiment": "frustrated",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -17593,7 +17587,7 @@
       "sentiment": "Distressed",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"nausea\",\n    \"vomiting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Gastroenterology\",\n  \"symptoms\": [\n    \"nausea\",\n    \"vomiting\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"distressed\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Gastroenterology",
       "symptoms": [
@@ -17601,7 +17595,7 @@
         "vomiting"
       ],
       "condition": "Unknown",
-      "sentiment": "concerned",
+      "sentiment": "distressed",
       "urgency_level": "Medium"
     },
     "valid_json": true
@@ -17761,11 +17755,11 @@
       "sentiment": "Neutral",
       "urgency_level": "Low"
     },
-    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"pulsing sensation\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Neurology\",\n  \"symptoms\": [\n    \"pulsing feeling\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Neurology",
       "symptoms": [
-        "pulsing sensation"
+        "pulsing feeling"
       ],
       "condition": "Unknown",
       "sentiment": "Curious",
@@ -17868,9 +17862,9 @@
       "sentiment": "Frustrated",
       "urgency_level": "High"
     },
-    "raw_model_output": "{\n  \"department\": \"Urology\",\n  \"symptoms\": [\n    \"scratching\",\n    \"redness\",\n    \"soreness\",\n    \"pain when urinating\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"High\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Pediatrics\",\n  \"symptoms\": [\n    \"scratching\",\n    \"redness\",\n    \"soreness\",\n    \"pain when urinating\"\n  ],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"frustrated\",\n  \"urgency_level\": \"High\"\n}",
     "parsed_output": {
-      "department": "Urology",
+      "department": "Pediatrics",
       "symptoms": [
         "scratching",
         "redness",
@@ -17943,13 +17937,13 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"tiredness\",\n    \"coughing\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"dizziness\",\n    \"tiredness\",\n    \"cough\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"Concerned\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
         "dizziness",
         "tiredness",
-        "coughing"
+        "cough"
       ],
       "condition": "Hypertension",
       "sentiment": "Concerned",
@@ -18045,11 +18039,11 @@
       "sentiment": "worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"head feels funny\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Cardiology\",\n  \"symptoms\": [\n    \"head feeling funny\"\n  ],\n  \"condition\": \"Hypertension\",\n  \"sentiment\": \"worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Cardiology",
       "symptoms": [
-        "head feels funny"
+        "head feeling funny"
       ],
       "condition": "Hypertension",
       "sentiment": "worried",
@@ -18087,11 +18081,11 @@
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Pregnancy\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Obstetrics\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Worried\",\n  \"urgency_level\": \"Medium\"\n}",
     "parsed_output": {
       "department": "Obstetrics",
       "symptoms": [],
-      "condition": "Pregnancy",
+      "condition": "Unknown",
       "sentiment": "Worried",
       "urgency_level": "Medium"
     },
@@ -18127,9 +18121,9 @@
       "sentiment": "Inquisitive",
       "urgency_level": "Medium"
     },
-    "raw_model_output": "{\n  \"department\": \"Addiction Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
+    "raw_model_output": "{\n  \"department\": \"Emergency Medicine\",\n  \"symptoms\": [],\n  \"condition\": \"Unknown\",\n  \"sentiment\": \"Curious\",\n  \"urgency_level\": \"Low\"\n}",
     "parsed_output": {
-      "department": "Addiction Medicine",
+      "department": "Emergency Medicine",
       "symptoms": [],
       "condition": "Unknown",
       "sentiment": "Curious",
