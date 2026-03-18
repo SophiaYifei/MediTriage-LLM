@@ -120,8 +120,6 @@ Outputs:
 - Clone the repo
 - Place the fine‑tuned adapter folder at `models/meditriage-mistral-lora/`
 - Plase the evaluation dataset in `data/processed/`
-
-
 ```
 
 
