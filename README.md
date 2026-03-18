@@ -116,6 +116,7 @@ Outputs:
 - `data/outputs/finetuned_model_predictions.json`
 
 ### How to load `models/meditriage-mistral-lora` and run custom evaluation
+```
 
 - Clone the repo
 - Place the fine‑tuned adapter folder at `models/meditriage-mistral-lora/`
